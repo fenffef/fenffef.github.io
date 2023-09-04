@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="![[Pasted image 20230904094353.png]]论文标题：重新思考用于中文拼写纠正的掩码语言模型期刊&#x2F;会议：ACL 2023作者单位：上海交通大学论文：https:&#x2F;&#x2F;aclanthology.org&#x2F;2023.acl-long.600代码：https:&#x2F;&#x2F;github.com&#x2F;gingasan&#x2F;lemon数据集：https:&#x2F;&#x2F;github.com&#x2F;gingasan&#x2F;le">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction">
+<meta property="og:url" content="http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/index.html">
+<meta property="og:site_name" content="Xuan Feng&#39;s homepage">
+<meta property="og:description" content="![[Pasted image 20230904094353.png]]论文标题：重新思考用于中文拼写纠正的掩码语言模型期刊&#x2F;会议：ACL 2023作者单位：上海交通大学论文：https:&#x2F;&#x2F;aclanthology.org&#x2F;2023.acl-long.600代码：https:&#x2F;&#x2F;github.com&#x2F;gingasan&#x2F;lemon数据集：https:&#x2F;&#x2F;github.com&#x2F;gingasan&#x2F;le">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-09-04T03:02:36.000Z">
+<meta property="article:modified_time" content="2023-09-04T03:03:48.196Z">
+<meta property="article:author" content="Xuan Feng">
+<meta property="article:tag" content="scholar">
+<meta name="twitter:card" content="summary">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="https://github.com/fenffef">Projects</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" aria-label="Next post" href="/2023/08/31/%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&text=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&title=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&is_video=false&description=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction&body=Check out this article: http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&title=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&title=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&title=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&title=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&name=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&t=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%91%98%E8%A6%81"><span class="toc-number">1.</span> <span class="toc-text">摘要</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-%E4%BB%8B%E7%BB%8D"><span class="toc-number">2.</span> <span class="toc-text">1 介绍</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-Method-Masked-Fine-Tuning"><span class="toc-number">3.</span> <span class="toc-text">2 Method: Masked Fine-Tuning</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-BERT%E5%BE%AE%E8%B0%83%E5%88%86%E6%9E%90"><span class="toc-number">4.</span> <span class="toc-text">3 BERT微调分析</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-Top-k-%E9%A2%84%E6%B5%8B"><span class="toc-number">4.1.</span> <span class="toc-text">3.1 Top-k 预测</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-%E5%B7%B2%E8%A7%81-vs-%E6%9C%AA%E8%A7%81%E7%BC%96%E8%BE%91%E5%AF%B9"><span class="toc-number">4.2.</span> <span class="toc-text">3.2 已见 vs. 未见编辑对</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-3-%E6%A2%AF%E5%BA%A6%E8%8C%83%E6%95%B0"><span class="toc-number">4.3.</span> <span class="toc-text">3.3 梯度范数</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-LEMON-Benchmark"><span class="toc-number">5.</span> <span class="toc-text">4 LEMON Benchmark</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C"><span class="toc-number">6.</span> <span class="toc-text">5 实验结果</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">7.</span> <span class="toc-text">总结</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Xuan Feng</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2023-09-04T03:02:36.000Z" itemprop="datePublished">2023-09-04</time>
+        
+      
+    </div>
+
+
+      
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/scholar/" rel="tag">scholar</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>![[Pasted image 20230904094353.png]]<br>论文标题：重新思考用于中文拼写纠正的掩码语言模型<br>期刊/会议：ACL 2023<br>作者单位：上海交通大学<br>论文：<a target="_blank" rel="noopener" href="https://aclanthology.org/2023.acl-long.600">https://aclanthology.org/2023.acl-long.600</a><br>代码：<a target="_blank" rel="noopener" href="https://github.com/gingasan/lemon">https://github.com/gingasan/lemon</a><br>数据集：<a target="_blank" rel="noopener" href="https://github.com/gingasan/lemon">https://github.com/gingasan/lemon</a></p>
+<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>在本文中，我们研究将中文拼写纠正（CSC）视为由两个独立模型（语言模型和错误模型）做出联合决策的方法。通过实证分析，我们发现微调 BERT 往往会过度拟合错误模型，而欠拟合语言模型，从而导致对分布外错误模式的泛化能力较差。鉴于 BERT 是大多数 CSC 模型的骨干网络，这种现象具有显著的负面影响。为了解决这个问题，我们发布了一个多域基准 LEMON，它比现有基准具有更高的质量和多样性，以便对 CSC 模型的开放域泛化进行全面评估。然后，我们证明了一种非常简单的策略，即在微调过程中从输入序列中随机掩码 20% 的非错误标记，足以在不牺牲错误模型的情况下学习更好的语言模型。该技术可应用于任何模型架构，并在 SIGHAN、ECSpell 和 LEMON上取得了最新的结果。</p>
+<h1 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1 介绍"></a>1 介绍</h1><p>中文拼写纠正 (Chinese Spelling Correction，CSC)的目的是检测并纠正句子中潜在的拼写错误。从高纬度视角来看，CSC 需要一个有效的语言模型和错误模型共同做出决定。假设输入句子包含 $n$ 个字符 $X = (x_1,…,x_n)$。模型预测每个位置 $Y = (y_1,…,y_n)$ 处的正确字符。在每个位置 $i$，让 $x_i$ 表示所有其他位置的字符，然后根据贝叶斯规则，我们有：</p>
+<p>$P\left(y_i \mid X\right) \propto \underbrace{P\left(y_i \mid x_{i}\right)}<em>{\text {language model }} \cdot \underbrace{P\left(x_i \mid y_i, x</em>{i}\right)}_{\text {error model }}$</p>
+<p>其中语言模型决定给定上下文的字符 $y_i$ 的分布，而错误模型表示给定上下文及其正确形式的潜在拼写错误字符 $x_i$ 的分布。</p>
+<p>![[Pasted image 20230904095737.png]]<br>图 1：传统微调的 BERT 所犯的错误。</p>
+<p>在本文中，我们进行了一个关键观察，即基于 BERT 的 CSC 模型通常会过度拟合错误模型，但会欠拟合语言模型。因为与语言模型相比，错误模型更容易记住。因此，该模型对看不见的编辑对 $(x_i, y_i)$ 的泛化能力非常差，并且无法利用上下文 $x_i$。我们在图 1 中说明了这一事实。例如，模型在训练期间暴露了编辑对“生硬→声音”和“生音→声音”。在测试过程中，模型无法检测到看不见的编辑对“声影→声音”，同时过度校正“生硬→声音”。这是因为模型天真地记住了训练编辑对，无法识别它们是否适合更广泛的上下文。</p>
+<p>次优或欠拟合的语言模型的后果是该模型难以推广到新的上下文和新的领域。SIGHAN 是目前 CSC 中使用最广泛的基准，但它有两个局限性：（1）仅来自外国演讲者的中文论文的狭窄语料库； (2) 编辑对多样性较低（即测试集中有 370 个编辑对）。因此，它并没有对模型的泛化能力提出足够的挑战。为此，我们推出了 LEMON，一个新的基准测试，它是一个具有自然拼写错误的大规模多域数据集，涵盖 7 个领域，包含超过 22,000 个示例，其中有 7,627 个不同的编辑对，这些示例是从真实的人类日常写作中收集的。它提供了现实场景中 CSC 模型的综合评估。</p>
+<p>本文贡献：</p>
+<ol>
+<li>我们进行的实证分析表明，基于 BERT 的 CSC 模型学习的是次优语言模型，导致分布外编辑对的性能不佳。</li>
+<li>我们针对 CSC 发布了大规模、多领域的基准测试，这比现有的基准测试更具挑战性。</li>
+<li>我们证明了一种简单的屏蔽微调策略可以显着增强语言建模，而不会损害错误建模，从而在基准测试中产生新的最先进的结果。</li>
+</ol>
+<h1 id="2-Method-Masked-Fine-Tuning"><a href="#2-Method-Masked-Fine-Tuning" class="headerlink" title="2 Method: Masked Fine-Tuning"></a>2 Method: Masked Fine-Tuning</h1><p>我们希望在不干扰错误模型的情况下增强语言模型的学习。因此，我们建议随机掩码一部分 token 并训练模型来恢复它们。掩码标记可以是任何标记，只要它不会出现在普通输入中即可。可以将其理解为人类从未犯过的特殊“打字错误”，从而向错误模型引入零偏差。根据经验，我们发现通过 [MASK] 掩码 20% 的非错误标记是最有效的。</p>
+<p>对于使用 parallel 并行（带注释）数据和单语言 monolingual（未注释）数据进行训练，我们建议从单语言数据中随机屏蔽 20% 的标记，然后构建 MLM 损失并将其添加到训练目标中。任何破坏规则（corruption rule）（例如混淆集）都会对人为错误做出假设，从而给错误模型带来偏差。 MLM 损失不会引入任何误差模型偏差，并且如第 Empirical Results 节所示，它在领域迁移中取得了更好的结果。</p>
+<h1 id="3-BERT微调分析"><a href="#3-BERT微调分析" class="headerlink" title="3 BERT微调分析"></a>3 BERT微调分析</h1><p>我们研究了BERT-based模型的 top-k 性能、对未见过的编辑对的泛化以及训练期间的梯度尺度。</p>
+<h2 id="3-1-Top-k-预测"><a href="#3-1-Top-k-预测" class="headerlink" title="3.1 Top-k 预测"></a>3.1 Top-k 预测</h2><p>CSC 通常关心每个位置的 top-1 预测。但在这里，我们打印出前 5 个预测，以便了解其语言建模能力。我们发现，经过微调的 BERT 模型倾向于预测输入字符的同音异义词和同形异义词，无论其上下文是否合适。请注意，同音异义词和同形异义词是中文拼写错误的两种主要形式。因此，它表明误差模型主导了预测。我们在表 1 中演示了两种情况。</p>
+<p>![[Pasted image 20230904100340.png]]<br>表 1：每个模型输出同一句子的 Top-k 结果。这里的模型是在 SIGHAN 上训练的。 FT是指常规微调。</p>
+<h2 id="3-2-已见-vs-未见编辑对"><a href="#3-2-已见-vs-未见编辑对" class="headerlink" title="3.2 已见 vs. 未见编辑对"></a>3.2 已见 vs. 未见编辑对</h2><p>在这个实验中，我们将 SIGHAN 2015 的测试集分成两个子集，INC（inclusive 包含的简写，表示与训练集重叠的编辑对）和 EXC（exclusive 独有的简写，编辑对不会出现在训练集中）。</p>
+<p>![[Pasted image 20230904102916.png]]<br>表 2：未见的编辑对上的 CSC 性能暴跌。</p>
+<p>表 2 显示了比较结果。微调后的 BERT 非常适合 INC（F1=64.1），但在 EXC（F1=6.3）上性能急剧下降。这表明该模型对于看不见的编辑对的泛化能力很差，其中错误模型不提供任何有用的信号。</p>
+<p>为了说明这一事实，我们尝试使用普通 BERT 通过用 [MASK] 替换拼写错误的标记来纠正错误。令人惊讶的是，我们发现普通 BERT 在 EXC 上实际上可以达到不错的精度（F1=45.6），比微调 BERT（F1=6.3）好得多。这一结果凸显了这样一个事实：训练有素的语言模型具有处理看不见的错误模式的巨大潜力。</p>
+<h2 id="3-3-梯度范数"><a href="#3-3-梯度范数" class="headerlink" title="3.3 梯度范数"></a>3.3 梯度范数</h2><p>我们注意到错误模型与大多数拼写错误相关，并且通过记住流行的错误模式很容易拟合模型。因此，CSC 微调过程快速收敛。</p>
+<p>![[Pasted image 20230904103353.png]]<br>图 2：梯度和模型收敛。在 (a) 中，我们计算所有模型参数的梯度 L2 范数。在 (b) 中，我们每 15 个步骤评估一次模型。</p>
+<p>图2 中绘制了训练期间的梯度范数曲线。对于 BERT 微调，梯度衰减很快。在前几百步中梯度范数降至非常小（小于 0.05）后，F1 分数停止增加。这意味着模型已经收敛。相比之下，Masked-FT模型的梯度范数保持在较高水平，F1分数不断提高。</p>
+<p>![[Pasted image 20230904103459.png]]<br>表 3：每个标记嵌入的梯度。我们在训练的早期阶段（两个时期）选择一个模型 checkpoint 。这句话是“（年级→年轻）轻轻就惨遭谢顶。”</p>
+<p>表 3 报告了示例句子中每个单独标记的梯度范数。 BERT 微调产生的梯度比 Masked-FT (MFT) 产生的梯度小得多，这表明 BERT 微调涉及跨令牌的令牌级参数更新效率较低。</p>
+<h1 id="4-LEMON-Benchmark"><a href="#4-LEMON-Benchmark" class="headerlink" title="4 LEMON Benchmark"></a>4 LEMON Benchmark</h1><p>在本文中，我们提出了 LEMON，一个具有自然拼写错误的大规模多领域数据集，涵盖 7 个领域，包括游戏 game（GAM）、百科全书 encyclopedia（ENC）、合同 contract（COT）、医疗 medical care（MEC）、car 汽车（ CAR）、novel 小说（NOV）和新闻 news（NEW）。LEMON 包含超过 22,000 个示例，其中包含从日常人类书写中识别出的自然拼写错误，并由受过良好教育的母语人士进行注释。LEMON 包含来自所有域的 7,627 个编辑对，比 SIGHAN 更加多样化。</p>
+<p>![[Pasted image 20230904103822.png]]<br>图 3：LEMON 的快照。我们还在此包含 SIGHAN-15 测试集以进行比较。</p>
+<h1 id="5-实验结果"><a href="#5-实验结果" class="headerlink" title="5 实验结果"></a>5 实验结果</h1><p>![[Pasted image 20230904104031.png]]<br>表 4：SIGHAN-15 的微调结果。底部的结果需要额外的预训练。 † 表示我们引用的结果（DCN 、PLOME、REALIZE、PHOMOSpell）。</p>
+<p>![[Pasted image 20230904104113.png]]<br>表 5：ECSpell 的微调结果。</p>
+<p>![[Pasted image 20230904104146.png]]<br>表 6：LEMON 上的性能。我们报告 F1 分数，还包括 SIGHAN 作为第 8 个域 (SIG)。</p>
+<p>![[Pasted image 20230904104323.png]]<br>表7：领域转移结果( F1分数)。所有模型均使用Masked - FT进行训练，除非指定为FT，指的是常规微调。</p>
+<p>![[Pasted image 20230904104721.png]]</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>本文对现有的CSC模型进行了定性分析，指出现有的CSC模型倾向于过拟合错误模型和欠拟合语言模型。<br>提出了一种简单而有效的方法来促进更好的语言模型学习。</p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="https://github.com/fenffef">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%91%98%E8%A6%81"><span class="toc-number">1.</span> <span class="toc-text">摘要</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-%E4%BB%8B%E7%BB%8D"><span class="toc-number">2.</span> <span class="toc-text">1 介绍</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-Method-Masked-Fine-Tuning"><span class="toc-number">3.</span> <span class="toc-text">2 Method: Masked Fine-Tuning</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-BERT%E5%BE%AE%E8%B0%83%E5%88%86%E6%9E%90"><span class="toc-number">4.</span> <span class="toc-text">3 BERT微调分析</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-Top-k-%E9%A2%84%E6%B5%8B"><span class="toc-number">4.1.</span> <span class="toc-text">3.1 Top-k 预测</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-%E5%B7%B2%E8%A7%81-vs-%E6%9C%AA%E8%A7%81%E7%BC%96%E8%BE%91%E5%AF%B9"><span class="toc-number">4.2.</span> <span class="toc-text">3.2 已见 vs. 未见编辑对</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-3-%E6%A2%AF%E5%BA%A6%E8%8C%83%E6%95%B0"><span class="toc-number">4.3.</span> <span class="toc-text">3.3 梯度范数</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-LEMON-Benchmark"><span class="toc-number">5.</span> <span class="toc-text">4 LEMON Benchmark</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C"><span class="toc-number">6.</span> <span class="toc-text">5 实验结果</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">7.</span> <span class="toc-text">总结</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&text=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&title=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&is_video=false&description=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction&body=Check out this article: http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&title=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&title=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&title=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&title=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&name=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/&t=2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2023
+    Xuan Feng
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="https://github.com/fenffef">Projects</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
