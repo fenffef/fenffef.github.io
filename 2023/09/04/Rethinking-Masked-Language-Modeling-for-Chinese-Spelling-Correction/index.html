@@ -1,32 +1,201 @@
-extends includes/layout.pug
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction | Xuan Feng's homepage</title><meta name="author" content="Xuan Feng"><meta name="copyright" content="Xuan Feng"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="![[Pasted image 20230904094353.png]]论文标题：重新思考用于中文拼写纠正的掩码语言模型期刊&#x2F;会议：ACL 2023作者单位：上海交通大学论文：https:&#x2F;&#x2F;aclanthology.org&#x2F;2023.acl-long.600代码：https:&#x2F;&#x2F;github.com&#x2F;gingasan&#x2F;lemon数据集：https:&#x2F;&#x2F;github.com&#x2F;gingasan&#x2F;le">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction">
+<meta property="og:url" content="http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/index.html">
+<meta property="og:site_name" content="Xuan Feng&#39;s homepage">
+<meta property="og:description" content="![[Pasted image 20230904094353.png]]论文标题：重新思考用于中文拼写纠正的掩码语言模型期刊&#x2F;会议：ACL 2023作者单位：上海交通大学论文：https:&#x2F;&#x2F;aclanthology.org&#x2F;2023.acl-long.600代码：https:&#x2F;&#x2F;github.com&#x2F;gingasan&#x2F;lemon数据集：https:&#x2F;&#x2F;github.com&#x2F;gingasan&#x2F;le">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:published_time" content="2023-09-04T03:02:36.000Z">
+<meta property="article:modified_time" content="2023-09-27T03:27:44.113Z">
+<meta property="article:author" content="Xuan Feng">
+<meta property="article:tag" content="scholar">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-09-27 11:27:44'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
-block content
-  #post
-    if top_img === false
-      include includes/header/post-info.pug
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
 
-    article#article-container.post-content!=page.content
-    include includes/post/post-copyright.pug
-    .tag_share
-      if (theme.post_meta.post.tags)
-        .post-meta__tag-list
-          each item, index in page.tags.data
-            a(href=url_for(item.path)).post-meta__tags #[=item.name]
-      include includes/third-party/share/index.pug
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
         
-    if theme.reward.enable && theme.reward.QR_code
-      !=partial('includes/post/reward', {}, {cache: true})
-
-    //- ad
-    if theme.ad && theme.ad.post
-      .ads-wrap!=theme.ad.post
-
-    if theme.post_pagination
-      include includes/pagination.pug
-    if theme.related_post && theme.related_post.enable
-      != related_posts(page,site.posts)
-
-    if page.comments !== false && theme.comments && theme.comments.use
-      - var commentsJsLoad = true
-      !=partial('includes/third-party/comments/index', {}, {cache: true})
-      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Xuan Feng's homepage"><span class="site-name">Xuan Feng's homepage</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2023-09-04T03:02:36.000Z" title="Created 2023-09-04 11:02:36">2023-09-04</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2023-09-27T03:27:44.113Z" title="Updated 2023-09-27 11:27:44">2023-09-27</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>![[Pasted image 20230904094353.png]]<br>论文标题：重新思考用于中文拼写纠正的掩码语言模型<br>期刊/会议：ACL 2023<br>作者单位：上海交通大学<br>论文：<a target="_blank" rel="noopener" href="https://aclanthology.org/2023.acl-long.600">https://aclanthology.org/2023.acl-long.600</a><br>代码：<a target="_blank" rel="noopener" href="https://github.com/gingasan/lemon">https://github.com/gingasan/lemon</a><br>数据集：<a target="_blank" rel="noopener" href="https://github.com/gingasan/lemon">https://github.com/gingasan/lemon</a></p>
+<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>在本文中，我们研究将中文拼写纠正（CSC）视为由两个独立模型（语言模型和错误模型）做出联合决策的方法。通过实证分析，我们发现微调 BERT 往往会过度拟合错误模型，而欠拟合语言模型，从而导致对分布外错误模式的泛化能力较差。鉴于 BERT 是大多数 CSC 模型的骨干网络，这种现象具有显著的负面影响。为了解决这个问题，我们发布了一个多域基准 LEMON，它比现有基准具有更高的质量和多样性，以便对 CSC 模型的开放域泛化进行全面评估。然后，我们证明了一种非常简单的策略，即在微调过程中从输入序列中随机掩码 20% 的非错误标记，足以在不牺牲错误模型的情况下学习更好的语言模型。该技术可应用于任何模型架构，并在 SIGHAN、ECSpell 和 LEMON上取得了最新的结果。</p>
+<h1 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1 介绍"></a>1 介绍</h1><p>中文拼写纠正 (Chinese Spelling Correction，CSC)的目的是检测并纠正句子中潜在的拼写错误。从高纬度视角来看，CSC 需要一个有效的语言模型和错误模型共同做出决定。假设输入句子包含 $n$ 个字符 $X = (x_1,…,x_n)$。模型预测每个位置 $Y = (y_1,…,y_n)$ 处的正确字符。在每个位置 $i$，让 $x_i$ 表示所有其他位置的字符，然后根据贝叶斯规则，我们有：</p>
+<p>$P\left(y_i \mid X\right) \propto \underbrace{P\left(y_i \mid x_{i}\right)}<em>{\text {language model }} \cdot \underbrace{P\left(x_i \mid y_i, x</em>{i}\right)}_{\text {error model }}$</p>
+<p>其中语言模型决定给定上下文的字符 $y_i$ 的分布，而错误模型表示给定上下文及其正确形式的潜在拼写错误字符 $x_i$ 的分布。</p>
+<p>![[Pasted image 20230904095737.png]]<br>图 1：传统微调的 BERT 所犯的错误。</p>
+<p>在本文中，我们进行了一个关键观察，即基于 BERT 的 CSC 模型通常会过度拟合错误模型，但会欠拟合语言模型。因为与语言模型相比，错误模型更容易记住。因此，该模型对看不见的编辑对 $(x_i, y_i)$ 的泛化能力非常差，并且无法利用上下文 $x_i$。我们在图 1 中说明了这一事实。例如，模型在训练期间暴露了编辑对“生硬→声音”和“生音→声音”。在测试过程中，模型无法检测到看不见的编辑对“声影→声音”，同时过度校正“生硬→声音”。这是因为模型天真地记住了训练编辑对，无法识别它们是否适合更广泛的上下文。</p>
+<p>次优或欠拟合的语言模型的后果是该模型难以推广到新的上下文和新的领域。SIGHAN 是目前 CSC 中使用最广泛的基准，但它有两个局限性：（1）仅来自外国演讲者的中文论文的狭窄语料库； (2) 编辑对多样性较低（即测试集中有 370 个编辑对）。因此，它并没有对模型的泛化能力提出足够的挑战。为此，我们推出了 LEMON，一个新的基准测试，它是一个具有自然拼写错误的大规模多域数据集，涵盖 7 个领域，包含超过 22,000 个示例，其中有 7,627 个不同的编辑对，这些示例是从真实的人类日常写作中收集的。它提供了现实场景中 CSC 模型的综合评估。</p>
+<p>本文贡献：</p>
+<ol>
+<li>我们进行的实证分析表明，基于 BERT 的 CSC 模型学习的是次优语言模型，导致分布外编辑对的性能不佳。</li>
+<li>我们针对 CSC 发布了大规模、多领域的基准测试，这比现有的基准测试更具挑战性。</li>
+<li>我们证明了一种简单的屏蔽微调策略可以显着增强语言建模，而不会损害错误建模，从而在基准测试中产生新的最先进的结果。</li>
+</ol>
+<h1 id="2-Method-Masked-Fine-Tuning"><a href="#2-Method-Masked-Fine-Tuning" class="headerlink" title="2 Method: Masked Fine-Tuning"></a>2 Method: Masked Fine-Tuning</h1><p>我们希望在不干扰错误模型的情况下增强语言模型的学习。因此，我们建议随机掩码一部分 token 并训练模型来恢复它们。掩码标记可以是任何标记，只要它不会出现在普通输入中即可。可以将其理解为人类从未犯过的特殊“打字错误”，从而向错误模型引入零偏差。根据经验，我们发现通过 [MASK] 掩码 20% 的非错误标记是最有效的。</p>
+<p>对于使用 parallel 并行（带注释）数据和单语言 monolingual（未注释）数据进行训练，我们建议从单语言数据中随机屏蔽 20% 的标记，然后构建 MLM 损失并将其添加到训练目标中。任何破坏规则（corruption rule）（例如混淆集）都会对人为错误做出假设，从而给错误模型带来偏差。 MLM 损失不会引入任何误差模型偏差，并且如第 Empirical Results 节所示，它在领域迁移中取得了更好的结果。</p>
+<h1 id="3-BERT微调分析"><a href="#3-BERT微调分析" class="headerlink" title="3 BERT微调分析"></a>3 BERT微调分析</h1><p>我们研究了BERT-based模型的 top-k 性能、对未见过的编辑对的泛化以及训练期间的梯度尺度。</p>
+<h2 id="3-1-Top-k-预测"><a href="#3-1-Top-k-预测" class="headerlink" title="3.1 Top-k 预测"></a>3.1 Top-k 预测</h2><p>CSC 通常关心每个位置的 top-1 预测。但在这里，我们打印出前 5 个预测，以便了解其语言建模能力。我们发现，经过微调的 BERT 模型倾向于预测输入字符的同音异义词和同形异义词，无论其上下文是否合适。请注意，同音异义词和同形异义词是中文拼写错误的两种主要形式。因此，它表明误差模型主导了预测。我们在表 1 中演示了两种情况。</p>
+<p>![[Pasted image 20230904100340.png]]<br>表 1：每个模型输出同一句子的 Top-k 结果。这里的模型是在 SIGHAN 上训练的。 FT是指常规微调。</p>
+<h2 id="3-2-已见-vs-未见编辑对"><a href="#3-2-已见-vs-未见编辑对" class="headerlink" title="3.2 已见 vs. 未见编辑对"></a>3.2 已见 vs. 未见编辑对</h2><p>在这个实验中，我们将 SIGHAN 2015 的测试集分成两个子集，INC（inclusive 包含的简写，表示与训练集重叠的编辑对）和 EXC（exclusive 独有的简写，编辑对不会出现在训练集中）。</p>
+<p>![[Pasted image 20230904102916.png]]<br>表 2：未见的编辑对上的 CSC 性能暴跌。</p>
+<p>表 2 显示了比较结果。微调后的 BERT 非常适合 INC（F1=64.1），但在 EXC（F1=6.3）上性能急剧下降。这表明该模型对于看不见的编辑对的泛化能力很差，其中错误模型不提供任何有用的信号。</p>
+<p>为了说明这一事实，我们尝试使用普通 BERT 通过用 [MASK] 替换拼写错误的标记来纠正错误。令人惊讶的是，我们发现普通 BERT 在 EXC 上实际上可以达到不错的精度（F1=45.6），比微调 BERT（F1=6.3）好得多。这一结果凸显了这样一个事实：训练有素的语言模型具有处理看不见的错误模式的巨大潜力。</p>
+<h2 id="3-3-梯度范数"><a href="#3-3-梯度范数" class="headerlink" title="3.3 梯度范数"></a>3.3 梯度范数</h2><p>我们注意到错误模型与大多数拼写错误相关，并且通过记住流行的错误模式很容易拟合模型。因此，CSC 微调过程快速收敛。</p>
+<p>![[Pasted image 20230904103353.png]]<br>图 2：梯度和模型收敛。在 (a) 中，我们计算所有模型参数的梯度 L2 范数。在 (b) 中，我们每 15 个步骤评估一次模型。</p>
+<p>图2 中绘制了训练期间的梯度范数曲线。对于 BERT 微调，梯度衰减很快。在前几百步中梯度范数降至非常小（小于 0.05）后，F1 分数停止增加。这意味着模型已经收敛。相比之下，Masked-FT模型的梯度范数保持在较高水平，F1分数不断提高。</p>
+<p>![[Pasted image 20230904103459.png]]<br>表 3：每个标记嵌入的梯度。我们在训练的早期阶段（两个时期）选择一个模型 checkpoint 。这句话是“（年级→年轻）轻轻就惨遭谢顶。”</p>
+<p>表 3 报告了示例句子中每个单独标记的梯度范数。 BERT 微调产生的梯度比 Masked-FT (MFT) 产生的梯度小得多，这表明 BERT 微调涉及跨令牌的令牌级参数更新效率较低。</p>
+<h1 id="4-LEMON-Benchmark"><a href="#4-LEMON-Benchmark" class="headerlink" title="4 LEMON Benchmark"></a>4 LEMON Benchmark</h1><p>在本文中，我们提出了 LEMON，一个具有自然拼写错误的大规模多领域数据集，涵盖 7 个领域，包括游戏 game（GAM）、百科全书 encyclopedia（ENC）、合同 contract（COT）、医疗 medical care（MEC）、car 汽车（ CAR）、novel 小说（NOV）和新闻 news（NEW）。LEMON 包含超过 22,000 个示例，其中包含从日常人类书写中识别出的自然拼写错误，并由受过良好教育的母语人士进行注释。LEMON 包含来自所有域的 7,627 个编辑对，比 SIGHAN 更加多样化。</p>
+<p>![[Pasted image 20230904103822.png]]<br>图 3：LEMON 的快照。我们还在此包含 SIGHAN-15 测试集以进行比较。</p>
+<h1 id="5-实验结果"><a href="#5-实验结果" class="headerlink" title="5 实验结果"></a>5 实验结果</h1><p>![[Pasted image 20230904104031.png]]<br>表 4：SIGHAN-15 的微调结果。底部的结果需要额外的预训练。 † 表示我们引用的结果（DCN 、PLOME、REALIZE、PHOMOSpell）。</p>
+<p>![[Pasted image 20230904104113.png]]<br>表 5：ECSpell 的微调结果。</p>
+<p>![[Pasted image 20230904104146.png]]<br>表 6：LEMON 上的性能。我们报告 F1 分数，还包括 SIGHAN 作为第 8 个域 (SIG)。</p>
+<p>![[Pasted image 20230904104323.png]]<br>表7：领域转移结果( F1分数)。所有模型均使用Masked - FT进行训练，除非指定为FT，指的是常规微调。</p>
+<p>![[Pasted image 20230904104721.png]]</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>本文对现有的CSC模型进行了定性分析，指出现有的CSC模型倾向于过拟合错误模型和欠拟合语言模型。<br>提出了一种简单而有效的方法来促进更好的语言模型学习。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="http://example.com">Xuan Feng</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/">http://example.com/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/scholar/">scholar</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2023/08/31/%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/" title="博士学位生存指南"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">博士学位生存指南</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><div><a href="/2023/03/10/Few-Zero-Shot-Paper-List/" title="Few- &#x2F;Zero-Shot Paper List"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-03-10</div><div class="title">Few- &#x2F;Zero-Shot Paper List</div></div></a></div><div><a href="/2023/03/10/LaTex%E6%95%99%E7%A8%8B%E5%8F%8A%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/" title="LaTex教程及资源分享"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-03-10</div><div class="title">LaTex教程及资源分享</div></div></a></div><div><a href="/2023/04/13/how-to-write-paper/" title="How to write paper"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-04-13</div><div class="title">How to write paper</div></div></a></div><div><a href="/2023/08/31/%E2%80%9C2023NLP%E9%A1%B6%E4%BC%9A%E8%AE%BA%E6%96%87%E5%88%97%E8%A1%A8%E2%80%9D/" title="2023NLP顶会论文列表"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-08-31</div><div class="title">2023NLP顶会论文列表</div></div></a></div><div><a href="/2023/08/31/%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/" title="博士学位生存指南"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-08-31</div><div class="title">博士学位生存指南</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Xuan Feng</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%91%98%E8%A6%81"><span class="toc-number">1.</span> <span class="toc-text">摘要</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-%E4%BB%8B%E7%BB%8D"><span class="toc-number">2.</span> <span class="toc-text">1 介绍</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-Method-Masked-Fine-Tuning"><span class="toc-number">3.</span> <span class="toc-text">2 Method: Masked Fine-Tuning</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-BERT%E5%BE%AE%E8%B0%83%E5%88%86%E6%9E%90"><span class="toc-number">4.</span> <span class="toc-text">3 BERT微调分析</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-Top-k-%E9%A2%84%E6%B5%8B"><span class="toc-number">4.1.</span> <span class="toc-text">3.1 Top-k 预测</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-%E5%B7%B2%E8%A7%81-vs-%E6%9C%AA%E8%A7%81%E7%BC%96%E8%BE%91%E5%AF%B9"><span class="toc-number">4.2.</span> <span class="toc-text">3.2 已见 vs. 未见编辑对</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-3-%E6%A2%AF%E5%BA%A6%E8%8C%83%E6%95%B0"><span class="toc-number">4.3.</span> <span class="toc-text">3.3 梯度范数</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-LEMON-Benchmark"><span class="toc-number">5.</span> <span class="toc-text">4 LEMON Benchmark</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C"><span class="toc-number">6.</span> <span class="toc-text">5 实验结果</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">7.</span> <span class="toc-text">总结</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><div class="content"><a class="title" href="/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/" title="2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction">2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction</a><time datetime="2023-09-04T03:02:36.000Z" title="Created 2023-09-04 11:02:36">2023-09-04</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2023/08/31/%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/" title="博士学位生存指南">博士学位生存指南</a><time datetime="2023-08-31T14:06:39.000Z" title="Created 2023-08-31 22:06:39">2023-08-31</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2023/08/31/%E2%80%9C2023NLP%E9%A1%B6%E4%BC%9A%E8%AE%BA%E6%96%87%E5%88%97%E8%A1%A8%E2%80%9D/" title="2023NLP顶会论文列表">2023NLP顶会论文列表</a><time datetime="2023-08-31T07:06:41.000Z" title="Created 2023-08-31 15:06:41">2023-08-31</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2023/04/23/%E7%A7%91%E7%A0%94%E5%AF%BC%E8%88%AA/" title="科研导航">科研导航</a><time datetime="2023-04-23T13:30:54.000Z" title="Created 2023-04-23 21:30:54">2023-04-23</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2023/04/15/VSCode%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91/" title="VSCode远程开发">VSCode远程开发</a><time datetime="2023-04-15T13:26:59.000Z" title="Created 2023-04-15 21:26:59">2023-04-15</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By Xuan Feng</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
