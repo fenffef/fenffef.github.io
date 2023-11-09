@@ -1,0 +1,486 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Chinese-Text-Correction-Paper-List | Xuan Feng's homepage</title><meta name="author" content="Xuan Feng"><meta name="copyright" content="Xuan Feng"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Chinese Text Correction PapersThis repo aims to keep tracking related work in Chinese text correction, including Chinese Spell Checking (CSC) and Chinese Grammatical Error Correction (CGEC).Welcome to">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Chinese-Text-Correction-Paper-List">
+<meta property="og:url" content="http://example.com/2023/11/09/Chinese-Text-Correction-Paper-List/index.html">
+<meta property="og:site_name" content="Xuan Feng&#39;s homepage">
+<meta property="og:description" content="Chinese Text Correction PapersThis repo aims to keep tracking related work in Chinese text correction, including Chinese Spell Checking (CSC) and Chinese Grammatical Error Correction (CGEC).Welcome to">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:published_time" content="2023-11-09T06:32:50.000Z">
+<meta property="article:modified_time" content="2023-11-09T06:33:56.290Z">
+<meta property="article:author" content="Xuan Feng">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2023/11/09/Chinese-Text-Correction-Paper-List/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Chinese-Text-Correction-Paper-List',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-11-09 14:33:56'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Xuan Feng's homepage"><span class="site-name">Xuan Feng's homepage</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Chinese-Text-Correction-Paper-List</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-11-09T06:32:50.000Z" title="发表于 2023-11-09 14:32:50">2023-11-09</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-11-09T06:33:56.290Z" title="更新于 2023-11-09 14:33:56">2023-11-09</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Chinese-Text-Correction-Paper-List"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="Chinese-Text-Correction-Papers"><a href="#Chinese-Text-Correction-Papers" class="headerlink" title="Chinese Text Correction Papers"></a>Chinese Text Correction Papers</h1><p>This repo aims to keep tracking related work in Chinese text correction, including Chinese Spell Checking (CSC) and Chinese Grammatical Error Correction (CGEC).<br>Welcome to contribute!</p>
+<h2 id="2023"><a href="#2023" class="headerlink" title="2023"></a>2023</h2><table>
+<thead>
+<tr>
+<th align="center">paper</th>
+<th align="center">conference</th>
+<th align="center">resource</th>
+<th align="center">citation</th>
+<th align="center">labels</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Disentangled Phonetic Representation for Chinese Spelling Correction</td>
+<td align="center">ACL2023</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2305.14783">pdf</a>] [<a target="_blank" rel="noopener" href="https://github.com/liangzh63/DORM-CSC">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/4d5f2b43c96b9d06001b68ed8984b7b4e93b76bb?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">Rethinking Masked Language Modeling for Chinese Spelling Correction</td>
+<td align="center">ACL2023</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2305.17721">pdf</a>] [<a target="_blank" rel="noopener" href="https://github.com/gingasan/lemon">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/59fa0a3ac7663ec6d508ceb497d89790a18c2c00?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"><img src="https://img.shields.io/badge/dataset-yellowgreen"></td>
+</tr>
+<tr>
+<td align="center">PTCSpell: Pre-trained Corrector Based on Character Shape and Pinyin for Chinese Spelling Correction</td>
+<td align="center">ACL2023</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2023.findings-acl.394/">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/1bdc4010dd68c7f2260ceae2459b2af3543ea717?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">Investigating Glyph-Phonetic Information for Chinese Spell Checking: What Works and What’s Next?</td>
+<td align="center">ACL2023</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2212.04068">pdf</a>] [<a target="_blank" rel="noopener" href="https://github.com/piglaker/ConfusionCluster">code</a>]</td>
+<td align="center">-</td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">Are Pre-trained Language Models Useful for Model Ensemble in Chinese Grammatical Error Correction?</td>
+<td align="center">ACL2023</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2305.15183">pdf</a>] [<a target="_blank" rel="noopener" href="https://github.com/JamyDon/PLM-based-CGEC-Model-Ensemble">code</a>]</td>
+<td align="center">-</td>
+<td align="center"><img src="https://img.shields.io/badge/CGEC-blue"></td>
+</tr>
+<tr>
+<td align="center">NaSGEC: a Multi-Domain Chinese Grammatical Error Correction Dataset from Native Speaker Texts</td>
+<td align="center">ACL2023</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2023.findings-acl.630/">pdf</a>] [<a target="_blank" rel="noopener" href="https://github.com/HillZhang1999/NaSGEC">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/dd521a5f10275efbb2346e1265f7977f24880161?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CGEC-blue"><img src="https://img.shields.io/badge/dataset-yellowgreen"></td>
+</tr>
+</tbody></table>
+<h2 id="2022"><a href="#2022" class="headerlink" title="2022"></a>2022</h2><table>
+<thead>
+<tr>
+<th align="center">paper</th>
+<th align="center">conference</th>
+<th align="center">resource</th>
+<th align="center">citation</th>
+<th align="center">labels</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Linguistic Rules-Based Corpus Generation for Native Chinese Grammatical Error Correction</td>
+<td align="center">EMNLP2022</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2210.10442.pdf">pdf</a>][<a target="_blank" rel="noopener" href="https://github.com/masr2000/CLG-CGEC">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/090f0d79c35047881aab87d1b6ea313a3146ec33?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CGEC-blue"><img src="https://img.shields.io/badge/dataset-yellowgreen"></td>
+</tr>
+<tr>
+<td align="center">FCGEC: Fine-Grained Corpus for Chinese Grammatical Error Correction</td>
+<td align="center">EMNLP2022</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2210.12364.pdf">pdf</a>][<a target="_blank" rel="noopener" href="https://github.com/xlxwalex/FCGEC">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/c080f022c6f57d10dc8e8e44231c8995480b884d?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CGEC-blue"><img src="https://img.shields.io/badge/dataset-yellowgreen"></td>
+</tr>
+<tr>
+<td align="center">SynGEC: Syntax-Enhanced Grammatical Error Correction with a Tailored GEC-Oriented Parser</td>
+<td align="center">EMNLP2022</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2210.12484.pdf">pdf</a>][<a target="_blank" rel="noopener" href="https://github.com/HillZhang1999/SynGEC">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/4cc73edaca5fc7e6e777525e030e1537f0292449?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CGEC-blue"></td>
+</tr>
+<tr>
+<td align="center">Revisiting Grammatical Error Correction Evaluation and Beyond</td>
+<td align="center">EMNLP2022</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2211.01635.pdf">pdf</a>][<a target="_blank" rel="noopener" href="https://github.com/pygongnlp/PT-M2">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/c84165f7601871997f795357c55d12523b31f3e4?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CGEC-blue"></td>
+</tr>
+<tr>
+<td align="center">From Spelling to Grammar: A New Framework for Chinese Grammatical Error Correction</td>
+<td align="center">EMNLP2022</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2211.01625">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/4cc73edaca5fc7e6e777525e030e1537f0292449?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CGEC-blue"></td>
+</tr>
+<tr>
+<td align="center">Improving Chinese Spelling Check by Character Pronunciation Prediction: The Effects of Adaptivity and Granularity</td>
+<td align="center">EMNLP2022</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2210.10996.pdf">pdf</a>][<a target="_blank" rel="noopener" href="https://github.com/jiahaozhenbang/SCOPE">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/5699d5050cc5495ad3bf4d299c0285f8239224f1?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">Sequence-to-Action: Grammatical Error Correction with Action Guided Sequence Generation</td>
+<td align="center">AAAI2022</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2205.10884">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/fd39b8c41ef56a25b38acec3f5372671cfa18b47?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CGEC-blue"></td>
+</tr>
+<tr>
+<td align="center">Non-Autoregressive Chinese ASR Error Correction with Phonological Training</td>
+<td align="center">NAACL2022</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2022.naacl-main.432.pdf">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/a55a3e5ef5ae5004d9f03bb67e1a577d95274272?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">MuCGEC: a Multi-Reference Multi-Source Evaluation Dataset for Chinese Grammatical Error Correction</td>
+<td align="center">NAACL2022</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2022.naacl-main.227.pdf">pdf</a>] [<a target="_blank" rel="noopener" href="https://github.com/HillZhang1999/MuCGEC">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/7733c1117fa243c92007b2a6d45137d94d7dce77?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CGEC-blue"> <img src="https://img.shields.io/badge/dataset-yellowgreen"></td>
+</tr>
+<tr>
+<td align="center">Improving Chinese Grammatical Error Detection via Data augmentation by Conditional Error Generation</td>
+<td align="center">ACL2022</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2022.findings-acl.233.pdf">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/777c3440e8eff82f26250713290b664869db5de0?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CGEC-blue"></td>
+</tr>
+<tr>
+<td align="center">CRASpell: A Contextual Typo Robust Approach to Improve Chinese Spelling Correction</td>
+<td align="center">ACL2022</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2022.findings-acl.237.pdf">pdf</a>] [<a target="_blank" rel="noopener" href="https://github.com/liushulinle/CRASpell">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/a77d34655475fd6eac0ae6ab724a3bd4b36102a6?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">MDCSpell: A Multi-task Detector-Corrector Framework for Chinese Spelling Correction</td>
+<td align="center">ACL2022</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2022.findings-acl.98.pdf">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/a27df49d3c8b1d96923e2e2eaa9bbfbe3ae732e7?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">The Past Mistake is the Future Wisdom: Error-driven Contrastive Probability Optimization for Chinese Spell Checking</td>
+<td align="center">ACL2022</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2203.00991.pdf">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/b1cf76df5f21000c2c3433805deeba2e5a27173c?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+</tbody></table>
+<h2 id="2021"><a href="#2021" class="headerlink" title="2021"></a>2021</h2><table>
+<thead>
+<tr>
+<th align="center">paper</th>
+<th align="center">conference</th>
+<th align="center">resource</th>
+<th align="center">citation</th>
+<th align="center">labels</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Correcting Chinese Spelling Errors with Phonetic Pre-training</td>
+<td align="center">ACL2021</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2021.findings-acl.198">pdf</a>] [<a target="_blank" rel="noopener" href="https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/taskflow/models/text_correction_model.py">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/c70b9276d4e4a27f2218bc3e921e9fc3ffd18f14?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">Read, Listen, and See: Leveraging Multimodal Information Helps Chinese Spell Checking</td>
+<td align="center">ACL2021</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2105.12306.pdf">pdf</a>] [<a target="_blank" rel="noopener" href="https://github.com/DaDaMrX/ReaLiSe">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/b92abf442f5cc4971556b157b8e14d17fd600f4b?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">PLOME: Pre-training with Misspelled Knowledge for Chinese Spelling Correction</td>
+<td align="center">ACL2021</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2021.acl-long.233">pdf</a>] [<a target="_blank" rel="noopener" href="https://github.com/liushulinle/PLOME">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/cf6be786c307a8c4e523daa455019a6b7650537c?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">Exploration and Exploitation: Two Ways to Improve Chinese Spelling Correction Models</td>
+<td align="center">ACL2021</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2021.acl-short.56">pdf</a>] [<a target="_blank" rel="noopener" href="https://github.com/FDChongli/TwoWaysToImproveCSC">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/755038a42abf9a9fa6d40ac7c0eb9fbe6298d3f0?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">PHMOSpell: Phonological and Morphological Knowledge Guided Chinese Spelling Check</td>
+<td align="center">ACL2021</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2021.acl-long.464.pdf">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/9998875164c1d46c8c41be6f22171e90abf0ccbe?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">Global Attention Decoder for Chinese Spelling Error Correction</td>
+<td align="center">ACL2021</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2021.findings-acl.122.pdf">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/74512e17ba6e9617260bf9a65503ffa22bc66e3a?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">Dynamic Connected Networks for Chinese Spelling Check</td>
+<td align="center">ACL2021</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2021.findings-acl.216.pdf">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/aec8c31d3b8cf37b106fb52d07b74fe8bb23c863?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">Tail-to-Tail Non-Autoregressive Sequence Prediction for Chinese Grammatical Error Correction</td>
+<td align="center">ACL2021</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2021.acl-long.385.pdf">pdf</a>] [<a target="_blank" rel="noopener" href="https://github.com/lipiji/TtT">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/133a5c9a15b734195d4ecb41c9f3fee01a8e8fd9?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CGEC-blue"></td>
+</tr>
+<tr>
+<td align="center">SpellBERT: A Lightweight Pretrained Model for Chinese Spelling Check</td>
+<td align="center">EMNLP2021</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2021.emnlp-main.287">pdf</a>] [<a target="_blank" rel="noopener" href="https://github.com/benbijituo/SpellBERT/">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/c92f38290af09b09b609b1685ae69f672b8ce6f5?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">DCSpell: A Detector-Corrector Framework for Chinese Spelling Error Correction</td>
+<td align="center">SIGIR2021</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://dl.acm.org/doi/10.1145/3404835.3463050">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/bce914a30371931915c0916c68eb621ef774dde2?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">Think Twice: A Post-Processing Approach for the Chinese Spelling Error Correction</td>
+<td align="center">AppliedScience</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://www.mdpi.com/2076-3417/11/13/5832">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/a3cd1fe6e4b469c2608559bbaa9daf4c3d992d4a?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+</tbody></table>
+<h2 id="2020"><a href="#2020" class="headerlink" title="2020"></a>2020</h2><table>
+<thead>
+<tr>
+<th align="center">paper</th>
+<th align="center">conference</th>
+<th align="center">resource</th>
+<th align="center">citation</th>
+<th align="center">labels</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Spelling Error Correction with Soft-Masked BERT</td>
+<td align="center">ACL2020</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2005.07421.pdf">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/93bf0b32b17297d94f6a2cc35bce7c396eb17b36?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">Spellgcn: Incorporating phonological and visual similarities into language models for chinese spelling check</td>
+<td align="center">ACL2020</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2004.14166.pdf">pdf</a>] [<a target="_blank" rel="noopener" href="https://github.com/ACL2020SpellGCN/SpellGCN">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/bc4b6bc216a9748aa5a37e0bf7b4ca0876f57e4b?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">Chunk-based Chinese Spelling Check with Global Optimization</td>
+<td align="center">EMNLP2020</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2020.findings-emnlp.184.pdf">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/6e1ed1a05ab12e931b8b2c5c08197a61d66b1a27?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">MaskGEC: Improving Neural Grammatical Error Correction via Dynamic Masking</td>
+<td align="center">AAAL2020</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://ojs.aaai.org/index.php/AAAI/article/view/5476">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/a32e3f890f8a38f2064803ce92687e6228241fb9?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CGEC-blue"></td>
+</tr>
+<tr>
+<td align="center">Combining ResNet and Transformer for Chinese Grammatical Error Diagnosis</td>
+<td align="center">AACL2020</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2020.nlptea-1.5.pdf">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/e8fe671e2e04c1b45a5dddc51c1e60768a66b628?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CGEC-blue"></td>
+</tr>
+<tr>
+<td align="center">Overview of NLPTEA-2020 Shared Task for Chinese Grammatical Error Diagnosis</td>
+<td align="center">AACL2020</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/2020.nlptea-1.4">pdf</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/2119f2e7497cacebc43ea04d0d8df96df9d08e03?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CGEC-blue"> <img src="https://img.shields.io/badge/dataset-yellowgreen"></td>
+</tr>
+</tbody></table>
+<h2 id="before"><a href="#before" class="headerlink" title="before"></a>before</h2><table>
+<thead>
+<tr>
+<th align="center">paper</th>
+<th align="center">conference</th>
+<th align="center">resource</th>
+<th align="center">citation</th>
+<th align="center">labels</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">FASPell: A Fast, Adaptable, Simple, Powerful Chinese Spell Checker Based On DAE-Decoder Paradigm</td>
+<td align="center">EMNLP2019</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/D19-5522.pdf">pdf</a>] [<a target="_blank" rel="noopener" href="https://github.com/iqiyi/FASPell">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/b8783d2fe5affed35dd62cad74a5f468359cc5cc?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"></td>
+</tr>
+<tr>
+<td align="center">A Hybrid Approach to Automatic Corpus Generation for Chinese Spelling Checking</td>
+<td align="center">EMNLP2018</td>
+<td align="center">[<a target="_blank" rel="noopener" href="https://aclanthology.org/D18-1273.pdf">pdf</a>] [<a target="_blank" rel="noopener" href="https://github.com/wdimmy/Automatic-Corpus-Generation">code</a>]</td>
+<td align="center"><img src="https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/c12e270f347334ced34614e110b9319888522da8?fields=citationCount" alt="citation"></td>
+<td align="center"><img src="https://img.shields.io/badge/CSC-green"> <img src="https://img.shields.io/badge/dataset-yellowgreen"></td>
+</tr>
+</tbody></table>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://example.com">Xuan Feng</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2023/11/09/Chinese-Text-Correction-Paper-List/">http://example.com/2023/11/09/Chinese-Text-Correction-Paper-List/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">Xuan Feng's homepage</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/" title="2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Xuan Feng</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Chinese-Text-Correction-Papers"><span class="toc-number">1.</span> <span class="toc-text">Chinese Text Correction Papers</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2023"><span class="toc-number">1.1.</span> <span class="toc-text">2023</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2022"><span class="toc-number">1.2.</span> <span class="toc-text">2022</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2021"><span class="toc-number">1.3.</span> <span class="toc-text">2021</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2020"><span class="toc-number">1.4.</span> <span class="toc-text">2020</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#before"><span class="toc-number">1.5.</span> <span class="toc-text">before</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/09/Chinese-Text-Correction-Paper-List/" title="Chinese-Text-Correction-Paper-List">Chinese-Text-Correction-Paper-List</a><time datetime="2023-11-09T06:32:50.000Z" title="发表于 2023-11-09 14:32:50">2023-11-09</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2023/09/04/Rethinking-Masked-Language-Modeling-for-Chinese-Spelling-Correction/" title="2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction">2023-ACL Rethinking Masked Language Modeling for Chinese Spelling Correction</a><time datetime="2023-09-04T03:02:36.000Z" title="发表于 2023-09-04 11:02:36">2023-09-04</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2023/08/31/%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/" title="博士学位生存指南">博士学位生存指南</a><time datetime="2023-08-31T14:06:39.000Z" title="发表于 2023-08-31 22:06:39">2023-08-31</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2023/08/31/%E2%80%9C2023NLP%E9%A1%B6%E4%BC%9A%E8%AE%BA%E6%96%87%E5%88%97%E8%A1%A8%E2%80%9D/" title="2023NLP顶会论文列表">2023NLP顶会论文列表</a><time datetime="2023-08-31T07:06:41.000Z" title="发表于 2023-08-31 15:06:41">2023-08-31</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2023/04/23/%E7%A7%91%E7%A0%94%E5%AF%BC%E8%88%AA/" title="科研导航">科研导航</a><time datetime="2023-04-23T13:30:54.000Z" title="发表于 2023-04-23 21:30:54">2023-04-23</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By Xuan Feng</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
