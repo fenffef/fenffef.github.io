@@ -42,12 +42,6 @@ I am a Cyber Security Ph.D. student at Jinan University. My research interests:
 
 - Jiayang Li\*, **Xuan Feng\***, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing Distillation Framework for Multi-domain Fake News Detection, 2024 IEEE 40th International Conference on Data Engineering (ICDE ’24), Utrecht, Netherlands, 2024, pp. 3627-3639, doi: 10.1109/ICDE60146.2024.00279. [[Paper](https://ieeexplore.ieee.org/abstract/document/10598140)] [[Code](https://github.com/ningljy/DTDBD)]
 
-- Peipeng Yu, Jiahan Chen, **Xuan Feng**, Zhihua Xia, CHEAT: A Large-scale Dataset for Detecting ChatGPT-writtEn AbsTracts[J]. arxiv, 2023. [[Paper]](https:)
-
-- Tianlong Gu, Tong Bao, Long Li, Liang Chang, **Xuan Feng**, Lexicon-enhanced Pre-trained Language Models for Chinese Ethics-related Tasks. doi:10.36227/techrxiv.23689404.v1. [[Paper]](https://www.techrxiv.org/articles/preprint/Lexicon-enhanced_Pre-trained_Language_Models_for_Chinese_Ethics-related_Tasks/23689404)
-
-- Ning Zhang\*, **Xuan Feng**\*, Tianlong Gu, Liang Chang, MVLP: Multi-perspective Vision-Language Pre-training Model for Ethically Aligned Meme Detection. doi:10.36227/techrxiv.23689437.v1. [[Paper]](https://www.techrxiv.org/articles/preprint/MVLP_Multi-perspective_Vision-Language_Pre-training_Model_for_Ethically_Aligned_Meme_Detection/23689437/1)
-
 - **Xuan Feng**, Tianlong Gu, Xuguang Bao, Long Li. Behavior-Based Ethical Understanding in Chinese Social News[J], in IEEE Transactions on Affective Computing (TAFFC ’23), vol. 14, no. 3, pp. 2349-2360, 1 July-Sept. 2023, doi: 10.1109/TAFFC.2022.3160745. [[Paper]](https://ieeexplore.ieee.org/document/9739920) [[Code]](https://github.com/fenffef/BEU-BERT-master)
 
 - 古天龙, **冯旋**, 李龙, 包旭光, 李云辉. 基于社会新闻数据集的伦理行为判别方法[J]. 计算机研究与发展, 2021, 58(02): 253-263. doi: 10.7544/issn1000-1239.2021.20200727. [[Paper]](https://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2021.20200727)
