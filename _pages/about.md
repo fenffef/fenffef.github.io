@@ -25,13 +25,13 @@ I am a Cyber Security Ph.D. student at Jinan University. My research interests:
 - Content Moderation
 
 # 🔥 News
-- 2024.12 One paper accepted by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI) 2025.  🎉
-- 2024.10 One paper accepted by IEEE Transactions on Affective Computing (TAFFC) 2024.  🎉  Appreciate the efforts of the co-author @Mingfeng Feng.
+- 2024.12 One paper accepted by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025).  🎉
+- 2024.10 One paper accepted by IEEE Transactions on Affective Computing (TAFFC 2024).  🎉  Appreciate the efforts of the co-author @Mingfeng Feng.
 - 2024.08 One paper accepted by IEEE Transactions on Big Data 2024.  🎉
-- 2024.07 One paper accepted by ACM Recommender Systems (RecSys) 2024. 🎉  Appreciate the efforts of the co-first author @Qin Liu.
-- 2024.07 One paper published on IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP) 2024. 🎉
-- 2023.12 One paper accepted by IEEE 40th International Conference on Data Engineering (ICDE) 2024. 🎉  Appreciate the efforts of the co-first author @Jiayang Li.
-- 2023.09 One paper published on IEEE Transactions on Affective Computing (TAFFC) 2023. 🎉
+- 2024.07 One paper accepted by ACM Recommender Systems (RecSys 2024). 🎉  Appreciate the efforts of the co-first author @Qin Liu.
+- 2024.07 One paper published on IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP 2024). 🎉
+- 2023.12 One paper accepted by IEEE 40th International Conference on Data Engineering (ICDE 2024). 🎉  Appreciate the efforts of the co-first author @Jiayang Li.
+- 2023.09 One paper published on IEEE Transactions on Affective Computing (TAFFC 2023). 🎉
 
 # 📝 Publications 
 - Tianlong Gu, Mingfeng Feng, **Xuan Feng**✉,  Xuemin Wang. SCARE: A Novel Framework to Enhance Chinese Harmful Memes Detection[J], in IEEE Transactions on Affective Computing (TAFFC ’24), 2024. doi: 10.1109/TAFFC.2024.3481419. [[Paper]](https://ieeexplore.ieee.org/document/10720078) [[Code]](https://github.com/fengmingfeng/SCARE)
