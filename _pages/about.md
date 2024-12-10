@@ -25,7 +25,7 @@ I am a Cyber Security Ph.D. student at Jinan University. My research interests:
 - Content Moderation
 
 # 🔥 Latest News
-
+- 2024.10 One paper accepted by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI) 2025.  🎉
 - 2024.10 One paper accepted by IEEE Transactions on Affective Computing (TAFFC) 2024.  🎉  Appreciate the efforts of the co-author @Mingfeng Feng.
 - 2024.08 One paper accepted by IEEE Transactions on Big Data 2024.  🎉
 - 2024.07 One paper accepted by ACM Recommender Systems (RecSys) 2024. 🎉  Appreciate the efforts of the co-first author @Qin Liu.
