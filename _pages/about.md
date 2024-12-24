@@ -34,7 +34,7 @@ I am a Cyber Security Ph.D. student at Jinan University. My research interests:
 - 2023.09 One paper published on IEEE Transactions on Affective Computing (TAFFC 2023). 🎉
 
 # 📝 Publications
-- **Xuan Feng**, Tianlong gu, Xiaoli Liu, Liang Chang, Learning from Mistakes: Self-correct Adversarial Training for Chinese Unnatural Text Correction[C], the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI ’25) (TASLP ’24).  [[Paper]](https://ieeexplore.ieee.org/document/10557151https://arxiv.org/abs/2412.17279)
+- **Xuan Feng**, Tianlong gu, Xiaoli Liu, Liang Chang, Learning from Mistakes: Self-correct Adversarial Training for Chinese Unnatural Text Correction[C], the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI ’25).  [[Paper]](https://ieeexplore.ieee.org/document/10557151https://arxiv.org/abs/2412.17279)
 
 - Tianlong Gu, Mingfeng Feng, **Xuan Feng**✉,  Xuemin Wang. SCARE: A Novel Framework to Enhance Chinese Harmful Memes Detection[J], in IEEE Transactions on Affective Computing (TAFFC ’24), 2024. doi: 10.1109/TAFFC.2024.3481419. [[Paper]](https://ieeexplore.ieee.org/document/10720078) [[Code]](https://github.com/fengmingfeng/SCARE)
 
