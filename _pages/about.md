@@ -35,9 +35,9 @@ I am a Cyber Security Ph.D. student at Jinan University. My research interests:
 - 2023.09 One paper published on IEEE Transactions on Affective Computing (TAFFC 2023). 🎉
 
 # 📝 Publications
-- **Xuan Feng**, Tianlong Gu, Xiaoli Liu, Liang Chang, Learning from Mistakes: Self-correct Adversarial Training for Chinese Unnatural Text Correction[C], the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI 2025). 2025, 39(22): 23887-23895. - [[Paper]](https://arxiv.org/abs/2412.17279)
+- **Xuan Feng**, Tianlong Gu, Xiaoli Liu, Liang Chang, Learning from Mistakes: Self-correct Adversarial Training for Chinese Unnatural Text Correction[C], the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI 2025). 2025, 39(22): 23887-23895. [[Paper]](https://arxiv.org/abs/2412.17279)
 
-- Peipeng Yu, Jiajan Chen, **Xuan Feng**, Zhihua Xia. CHEAT: A Large-scale Dataset for Detecting CHatGPT-writtEn AbsTracts[J]. IEEE Transactions on Big Data, 2025 (01): 1-9. - [[Paper]](https://ieeexplore.ieee.org/abstract/document/10858415)
+- Peipeng Yu, Jiajan Chen, **Xuan Feng**, Zhihua Xia. CHEAT: A Large-scale Dataset for Detecting CHatGPT-writtEn AbsTracts[J]. IEEE Transactions on Big Data, 2025 (01): 1-9. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10858415)
 
 - Tianlong Gu, Mingfeng Feng, **Xuan Feng**✉,  Xuemin Wang. SCARE: A Novel Framework to Enhance Chinese Harmful Memes Detection[J], in IEEE Transactions on Affective Computing (TAFFC 2024), 2024. doi: 10.1109/TAFFC.2024.3481419. [[Paper]](https://ieeexplore.ieee.org/document/10720078) [[Code]](https://github.com/fengmingfeng/SCARE)
 
