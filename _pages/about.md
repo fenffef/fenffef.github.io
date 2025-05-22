@@ -52,5 +52,5 @@ I am a Cyber Security Ph.D. student at Jinan University. My research interests:
 - 古天龙, **冯旋**, 李龙, 包旭光, 李云辉. 基于社会新闻数据集的伦理行为判别方法[J]. 计算机研究与发展, 2021, 58(02): 253-263. doi: 10.7544/issn1000-1239.2021.20200727. [[Paper]](https://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2021.20200727)
 
 # 🎖 Honors and Awards
-- 2021.10 National Schloarship
-- 2024.10 National Schloarship
+- 2021.10 National Scholarship
+- 2024.10 National Scholarship
