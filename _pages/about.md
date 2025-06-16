@@ -25,15 +25,9 @@ I am a Cyber Security Ph.D. student at Jinan University. My research interests:
 - Content Moderation
 
 # 🔥 News
-- 2025.05 One paper accepted by Pattern Recognition (PR 2025).  🎉  Appreciate the efforts of the co-author @Hao Li.
+- 2025.06 One paper accepted by Pattern Recognition (PR 2025).  🎉  Appreciate the efforts of the co-author @Hao Li.
 - 2025.05 One paper accepted by The Forty-second International Conference on Machine Learning (ICML 2025).  🎉
-- 2024.12 One paper accepted by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025).  🎉
-- 2024.10 One paper accepted by IEEE Transactions on Affective Computing (TAFFC 2024).  🎉  Appreciate the efforts of the co-author @Mingfeng Feng.
-- 2024.08 One paper accepted by IEEE Transactions on Big Data 2024.  🎉
-- 2024.07 One paper accepted by ACM Recommender Systems (RecSys 2024). 🎉  Appreciate the efforts of the co-first author @Qin Liu.
-- 2024.07 One paper published on IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP 2024). 🎉
-- 2023.12 One paper accepted by IEEE 40th International Conference on Data Engineering (ICDE 2024). 🎉  Appreciate the efforts of the co-first author @Jiayang Li.
-- 2023.09 One paper published on IEEE Transactions on Affective Computing (TAFFC 2023). 🎉
+
 
 # 📝 Publications
 - Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition, 2025.
