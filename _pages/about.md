@@ -30,7 +30,7 @@ I am a Cyber Security Ph.D. student at Jinan University. My research interests:
 
 
 # 📝 Publications
-- Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition, 2025.
+- Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Gu T, Pattern Recognition, 2025: 112023. [[Paper]](https://doi.org/10.1016/j.patcog.2025.112023) [[Code]](https://github.com/fenffef/AMGSN/tree/main)
 
 - **Xuan Feng**, Tianlong Gu, Xiaoli Liu, Liang Chang, Learning from Mistakes: Self-correct Adversarial Training for Chinese Unnatural Text Correction[C], the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI 2025). 2025, 39(22): 23887-23895. [[Paper]](https://arxiv.org/abs/2412.17279)
 
