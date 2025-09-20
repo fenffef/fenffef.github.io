@@ -19,7 +19,7 @@ redirect_from:
 
 
 # 😊 About me
-I am a Cyber Security Ph.D. student at Jinan University. My research interests: 
+I am a Cyber Security Ph.D. student at Jinan University. Currently, I am a visiting student at Nanyang Technological University (NTU), supported by the ​China Scholarship Council (CSC)​. My research interests: 
 - AI Alignment
 - Natural Language Processing
 - Content Moderation
