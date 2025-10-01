@@ -30,19 +30,19 @@ I am a Cyber Security Ph.D. student at Jinan University. Currently, I am a visit
 
 
 # 📝 Publications
-- Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition, 2025: 112023. [[Paper]](https://doi.org/10.1016/j.patcog.2025.112023) [[Code]](https://github.com/fenffef/AMGSN/tree/main)
+- Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition, 2025: 112023. [[Paper]](https://doi.org/10.1016/j.patcog.2025.112023) [[Code]](https://github.com/fenffef/AMGSN/tree/main) (**Corresponding Author**)
 
 - **Xuan Feng**, Tianlong Gu, Xiaoli Liu, Liang Chang, Learning from Mistakes: Self-correct Adversarial Training for Chinese Unnatural Text Correction[C], the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI 2025). 2025, 39(22): 23887-23895. [[Paper]](https://arxiv.org/abs/2412.17279)
 
 - Peipeng Yu, Jiajan Chen, **Xuan Feng**, Zhihua Xia. CHEAT: A Large-scale Dataset for Detecting CHatGPT-writtEn AbsTracts[J]. IEEE Transactions on Big Data, 2025 (01): 1-9. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10858415)
 
-- Tianlong Gu, Mingfeng Feng, **Xuan Feng**✉,  Xuemin Wang. SCARE: A Novel Framework to Enhance Chinese Harmful Memes Detection[J], in IEEE Transactions on Affective Computing (TAFFC 2024), 2024. doi: 10.1109/TAFFC.2024.3481419. [[Paper]](https://ieeexplore.ieee.org/document/10720078) [[Code]](https://github.com/fengmingfeng/SCARE)
+- Tianlong Gu, Mingfeng Feng, **Xuan Feng**✉,  Xuemin Wang. SCARE: A Novel Framework to Enhance Chinese Harmful Memes Detection[J], in IEEE Transactions on Affective Computing (TAFFC 2024), 2024. doi: 10.1109/TAFFC.2024.3481419. [[Paper]](https://ieeexplore.ieee.org/document/10720078) [[Code]](https://github.com/fengmingfeng/SCARE) (**Corresponding Author**)
 
-- Qin Liu*, **Xuan Feng\***, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-oriented Fairness in Conversational Recommendation Systems[C], In Proceedings of The 18th ACM Conference on Recommender Systems (RecSys 2024), October 14–18, 2024, Bari, Italy. ACM, New York, NY, USA,  doi: 10.1145/3640457.3688150. [[Paper]](https://dl.acm.org/doi/10.1145/3640457.3688150) [[Code]](https://github.com/LQlq123/FairCRS)
+- Qin Liu*, **Xuan Feng\***, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-oriented Fairness in Conversational Recommendation Systems[C], In Proceedings of The 18th ACM Conference on Recommender Systems (RecSys 2024), October 14–18, 2024, Bari, Italy. ACM, New York, NY, USA,  doi: 10.1145/3640457.3688150. [[Paper]](https://dl.acm.org/doi/10.1145/3640457.3688150) [[Code]](https://github.com/LQlq123/FairCRS) (**Co-first Author**)
 
 - **Xuan Feng**, Tianlong Gu, Liang Chang, Xiaoli Liu, PROTECT: Parameter-Efficient Tuning for Few-Shot Robust Chinese Text Correction[J], in IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP 2024), doi: 10.1109/TASLP.2024.3414333.  [[Paper]](https://ieeexplore.ieee.org/document/10557151)  [[Code]](https://github.com/fenffef/PROTECT)
 
-- Jiayang Li\*, **Xuan Feng\***, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing Distillation Framework for Multi-domain Fake News Detection[C], 2024 IEEE 40th International Conference on Data Engineering (ICDE 2024), Utrecht, Netherlands, 2024, pp. 3627-3639, doi: 10.1109/ICDE60146.2024.00279. [[Paper](https://ieeexplore.ieee.org/abstract/document/10598140)] [[Code](https://github.com/ningljy/DTDBD)]
+- Jiayang Li\*, **Xuan Feng\***, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing Distillation Framework for Multi-domain Fake News Detection[C], 2024 IEEE 40th International Conference on Data Engineering (ICDE 2024), Utrecht, Netherlands, 2024, pp. 3627-3639, doi: 10.1109/ICDE60146.2024.00279. [[Paper](https://ieeexplore.ieee.org/abstract/document/10598140)] [[Code](https://github.com/ningljy/DTDBD)] (**Co-first Author**)
 
 - **Xuan Feng**, Tianlong Gu, Xuguang Bao, Long Li. Behavior-Based Ethical Understanding in Chinese Social News[J], in IEEE Transactions on Affective Computing (TAFFC 2023), vol. 14, no. 3, pp. 2349-2360, 1 July-Sept. 2023, doi: 10.1109/TAFFC.2022.3160745. [[Paper]](https://ieeexplore.ieee.org/document/9739920) [[Code]](https://github.com/fenffef/BEU-BERT-master)
 
