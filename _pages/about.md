@@ -19,7 +19,7 @@ redirect_from:
 
 
 # 😊 About me
-I am a Cyber Security Ph.D. student at Jinan University. Currently, I am a visiting student at Nanyang Technological University (NTU), supported by the ​China Scholarship Council (CSC)​. My research interests: 
+I am a Ph.D. student in Cyber Security at Jinan University, under the primary supervision of Prof. Tianlong Gu. I am currently a visiting student at Nanyang Technological University (NTU), sponsored by the China Scholarship Council (CSC), and am fortunate to be advised by Prof. Bo An and Assoc. Prof. Nicolas Vun Chan Hua​. My research interests: 
 - AI Alignment
 - Natural Language Processing
 - Content Moderation
@@ -30,9 +30,9 @@ I am a Cyber Security Ph.D. student at Jinan University. Currently, I am a visit
 
 
 # 📝 Publications
-- Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Unlocking the capabilities of vision-language models for generalizable and explainable deepfake detection. Proceedings of the 42nd International Conference on Machine Learning (ICML'25), PMLR 267:72925-72943. [[Paper](https://openreview.net/pdf?id=vDB2oX3Wl3)][[Code]](https://github.com/botianzhe/LVLM-DFD)
-
 - Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition (PR'25), 2025: 112023. [[Paper]](https://doi.org/10.1016/j.patcog.2025.112023) [[Code]](https://github.com/fenffef/AMGSN/tree/main) (**Corresponding Author**)
+
+- Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Unlocking the capabilities of vision-language models for generalizable and explainable deepfake detection. Proceedings of the 42nd International Conference on Machine Learning (ICML'25), PMLR 267:72925-72943. [[Paper](https://openreview.net/pdf?id=vDB2oX3Wl3)] [[Code]](https://github.com/botianzhe/LVLM-DFD)
 
 - **Xuan Feng**, Tianlong Gu, Xiaoli Liu, Liang Chang, Learning from Mistakes: Self-correct Adversarial Training for Chinese Unnatural Text Correction[C], the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI'25). 2025, 39(22): 23887-23895. [[Paper]](https://arxiv.org/abs/2412.17279)
 
