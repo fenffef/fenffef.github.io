@@ -30,6 +30,16 @@ I am a Ph.D. student in Cyber Security at Jinan University, under the primary su
 
 
 # 📝 Publications
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/amgns.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition (PR'25), 2025: 112023. [[Paper]](https://doi.org/10.1016/j.patcog.2025.112023) [[Code]](https://github.com/fenffef/AMGSN/tree/main) (**Corresponding Author**)
+
+[**Code**](https://github.com/yayayacc/MUR) &nbsp;
+[![](https://img.shields.io/github/stars/yayayacc/MUR?style=social&label=Code+Stars)](https://github.com/yayayacc/MUR)
+
+</div>
+</div>
 - Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition (PR'25), 2025: 112023. [[Paper]](https://doi.org/10.1016/j.patcog.2025.112023) [[Code]](https://github.com/fenffef/AMGSN/tree/main) (**Corresponding Author**)
 
 - Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Unlocking the capabilities of vision-language models for generalizable and explainable deepfake detection. Proceedings of the 42nd International Conference on Machine Learning (ICML'25), PMLR 267:72925-72943. [[Paper](https://openreview.net/pdf?id=vDB2oX3Wl3)] [[Code]](https://github.com/botianzhe/LVLM-DFD)
