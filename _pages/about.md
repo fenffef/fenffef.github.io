@@ -33,7 +33,13 @@ I am a Ph.D. student in Cyber Security at Jinan University, under the primary su
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/AMGSN.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition (PR'25), 2025: 112023. [[Paper]](https://doi.org/10.1016/j.patcog.2025.112023) [[Code]](https://github.com/fenffef/AMGSN/tree/main) (**Corresponding Author**)
+Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition (PR'25), 2025: 112023. 
+
+[[Paper]](https://doi.org/10.1016/j.patcog.2025.112023)
+
+[[Code]](https://github.com/fenffef/AMGSN/tree/main) 
+
+(**Corresponding Author**)
 
 </div>
 </div>
