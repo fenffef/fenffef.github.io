@@ -30,7 +30,7 @@ I am a Ph.D. student in Cyber Security at Jinan University, under the primary su
 
 
 # 📝 Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/amgns.png' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/AMGSN.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition (PR'25), 2025: 112023. [[Paper]](https://doi.org/10.1016/j.patcog.2025.112023) [[Code]](https://github.com/fenffef/AMGSN/tree/main) (**Corresponding Author**)
@@ -59,8 +59,6 @@ Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Un
 
 [[Paper]](https://arxiv.org/abs/2412.17279)
 
-(**First Author**)
-
 </div>
 </div>
 
@@ -78,11 +76,44 @@ Tianlong Gu, Mingfeng Feng, **Xuan Feng**✉,  Xuemin Wang. SCARE: A Novel Frame
 </div>
 
 
-- Qin Liu*, **Xuan Feng\***, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-oriented Fairness in Conversational Recommendation Systems[C], In Proceedings of The 18th ACM Conference on Recommender Systems (RecSys'24), October 14–18, 2024, Bari, Italy. ACM, New York, NY, USA,  doi: 10.1145/3640457.3688150. [[Paper]](https://dl.acm.org/doi/10.1145/3640457.3688150) [[Code]](https://github.com/LQlq123/FairCRS) (**Co-first Author**)
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RecSys 2024</div><img src='images/FAIRCRS.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-- **Xuan Feng**, Tianlong Gu, Liang Chang, Xiaoli Liu, PROTECT: Parameter-Efficient Tuning for Few-Shot Robust Chinese Text Correction[J], in IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP'24), doi: 10.1109/TASLP.2024.3414333.  [[Paper]](https://ieeexplore.ieee.org/document/10557151)  [[Code]](https://github.com/fenffef/PROTECT)
+Qin Liu*, **Xuan Feng\***, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-oriented Fairness in Conversational Recommendation Systems[C], In Proceedings of The 18th ACM Conference on Recommender Systems (RecSys'24), October 14–18, 2024, Bari, Italy. ACM, New York, NY, USA,  doi: 10.1145/3640457.3688150.
 
-- Jiayang Li\*, **Xuan Feng\***, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing Distillation Framework for Multi-domain Fake News Detection[C], 2024 IEEE 40th International Conference on Data Engineering (ICDE'24), Utrecht, Netherlands, 2024, pp. 3627-3639, doi: 10.1109/ICDE60146.2024.00279. [[Paper](https://ieeexplore.ieee.org/abstract/document/10598140)] [[Code](https://github.com/ningljy/DTDBD)] (**Co-first Author**)
+[[Paper]](https://dl.acm.org/doi/10.1145/3640457.3688150) [[Code]](https://github.com/LQlq123/FairCRS)
+
+(**Co-first Author**)
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TASLP 2024</div><img src='images/PROTECT.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Xuan Feng**, Tianlong Gu, Liang Chang, Xiaoli Liu, PROTECT: Parameter-Efficient Tuning for Few-Shot Robust Chinese Text Correction[J], in IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP'24), doi: 10.1109/TASLP.2024.3414333.
+
+[[Paper]](https://ieeexplore.ieee.org/document/10557151)  [[Code]](https://github.com/fenffef/PROTECT)
+
+(**Co-first Author**)
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICDE 2024</div><img src='images/PROTECT.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Jiayang Li\*, **Xuan Feng\***, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing Distillation Framework for Multi-domain Fake News Detection[C], 2024 IEEE 40th International Conference on Data Engineering (ICDE'24), Utrecht, Netherlands, 2024, pp. 3627-3639, doi: 10.1109/ICDE60146.2024.00279.
+
+[[Paper](https://ieeexplore.ieee.org/abstract/document/10598140)]
+[[Code](https://github.com/ningljy/DTDBD)]
+
+(**Co-first Author**)
+
+</div>
+</div>
 
 - **Xuan Feng**, Tianlong Gu, Xuguang Bao, Long Li. Behavior-Based Ethical Understanding in Chinese Social News[J], in IEEE Transactions on Affective Computing (TAFFC'23), vol. 14, no. 3, pp. 2349-2360, 1 July-Sept. 2023, doi: 10.1109/TAFFC.2022.3160745. [[Paper]](https://ieeexplore.ieee.org/document/9739920) [[Code]](https://github.com/fenffef/BEU-BERT-master)
 
