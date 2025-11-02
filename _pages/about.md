@@ -30,7 +30,7 @@ I am a Ph.D. student in Cyber Security at Jinan University, under the primary su
 
 
 # 📝 Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/amgns.png' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/amgns.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition (PR'25), 2025: 112023. [[Paper]](https://doi.org/10.1016/j.patcog.2025.112023) [[Code]](https://github.com/fenffef/AMGSN/tree/main) (**Corresponding Author**)
@@ -40,15 +40,43 @@ Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Sup
 
 </div>
 </div>
-- Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition (PR'25), 2025: 112023. [[Paper]](https://doi.org/10.1016/j.patcog.2025.112023) [[Code]](https://github.com/fenffef/AMGSN/tree/main) (**Corresponding Author**)
 
-- Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Unlocking the capabilities of vision-language models for generalizable and explainable deepfake detection. Proceedings of the 42nd International Conference on Machine Learning (ICML'25), PMLR 267:72925-72943. [[Paper](https://openreview.net/pdf?id=vDB2oX3Wl3)] [[Code]](https://github.com/botianzhe/LVLM-DFD)
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/LVM.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-- **Xuan Feng**, Tianlong Gu, Xiaoli Liu, Liang Chang, Learning from Mistakes: Self-correct Adversarial Training for Chinese Unnatural Text Correction[C], the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI'25). 2025, 39(22): 23887-23895. [[Paper]](https://arxiv.org/abs/2412.17279)
+Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Unlocking the capabilities of vision-language models for generalizable and explainable deepfake detection. Proceedings of the 42nd International Conference on Machine Learning (ICML'25), PMLR 267:72925-72943.
 
-- Peipeng Yu, Jiajan Chen, **Xuan Feng**, Zhihua Xia. CHEAT: A Large-scale Dataset for Detecting CHatGPT-writtEn AbsTracts[J]. IEEE Transactions on Big Data, 2025 (01): 1-9. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10858415)
+[[Paper](https://openreview.net/pdf?id=vDB2oX3Wl3)]
+[[Code]](https://github.com/botianzhe/LVLM-DFD)
 
-- Tianlong Gu, Mingfeng Feng, **Xuan Feng**✉,  Xuemin Wang. SCARE: A Novel Framework to Enhance Chinese Harmful Memes Detection[J], in IEEE Transactions on Affective Computing (TAFFC'24), 2024. doi: 10.1109/TAFFC.2024.3481419. [[Paper]](https://ieeexplore.ieee.org/document/10720078) [[Code]](https://github.com/fengmingfeng/SCARE) (**Corresponding Author**)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/LIMIT.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Xuan Feng**, Tianlong Gu, Xiaoli Liu, Liang Chang, Learning from Mistakes: Self-correct Adversarial Training for Chinese Unnatural Text Correction[C], the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI'25). 2025, 39(22): 23887-23895.
+
+[[Paper]](https://arxiv.org/abs/2412.17279)
+
+(**First Author**)
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TAFFC 2025</div><img src='images/SCARE.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Tianlong Gu, Mingfeng Feng, **Xuan Feng**✉,  Xuemin Wang. SCARE: A Novel Framework to Enhance Chinese Harmful Memes Detection[J], in IEEE Transactions on Affective Computing (TAFFC'24), 2024. doi: 10.1109/TAFFC.2024.3481419.
+
+[[Paper]](https://ieeexplore.ieee.org/document/10720078) [[Code]](https://github.com/fengmingfeng/SCARE)
+
+(**Corresponding Author**)
+
+</div>
+</div>
+
 
 - Qin Liu*, **Xuan Feng\***, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-oriented Fairness in Conversational Recommendation Systems[C], In Proceedings of The 18th ACM Conference on Recommender Systems (RecSys'24), October 14–18, 2024, Bari, Italy. ACM, New York, NY, USA,  doi: 10.1145/3640457.3688150. [[Paper]](https://dl.acm.org/doi/10.1145/3640457.3688150) [[Code]](https://github.com/LQlq123/FairCRS) (**Co-first Author**)
 
@@ -59,6 +87,8 @@ Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Sup
 - **Xuan Feng**, Tianlong Gu, Xuguang Bao, Long Li. Behavior-Based Ethical Understanding in Chinese Social News[J], in IEEE Transactions on Affective Computing (TAFFC'23), vol. 14, no. 3, pp. 2349-2360, 1 July-Sept. 2023, doi: 10.1109/TAFFC.2022.3160745. [[Paper]](https://ieeexplore.ieee.org/document/9739920) [[Code]](https://github.com/fenffef/BEU-BERT-master)
 
 - 古天龙, **冯旋**, 李龙, 包旭光, 李云辉. 基于社会新闻数据集的伦理行为判别方法[J]. 计算机研究与发展, 2021, 58(02): 253-263. doi: 10.7544/issn1000-1239.2021.20200727. [[Paper]](https://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2021.20200727)
+
+- Peipeng Yu, Jiajan Chen, **Xuan Feng**, Zhihua Xia. CHEAT: A Large-scale Dataset for Detecting CHatGPT-writtEn AbsTracts[J]. IEEE Transactions on Big Data, 2025 (01): 1-9. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10858415)
 
 # 🎖 Honors and Awards
 - 2021.10 National Scholarship
