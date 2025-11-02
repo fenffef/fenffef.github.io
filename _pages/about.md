@@ -19,7 +19,7 @@ redirect_from:
 
 
 # 😊 About me
-I am a Ph.D. student in Cyber Security at Jinan University, under the primary supervision of Prof. [Tianlong Gu][(https://scholar.google.com/citations?user=bH5C2hAAAAAJ)]. I am currently a visiting student at Nanyang Technological University (NTU), sponsored by the China Scholarship Council (CSC), and am fortunate to be advised by Prof. [Bo An][(https://personal.ntu.edu.sg/boan/)] and Assoc. Prof. [Nicolas Vun Chan Hua][(https://dr.ntu.edu.sg/entities/person/Vun-Chan-Hua-Nicholas)]​. My research interests: 
+I am a Ph.D. student in Cyber Security at Jinan University, under the primary supervision of Prof. [[Tianlong Gu][(https://scholar.google.com/citations?user=bH5C2hAAAAAJ)]. I am currently a visiting student at Nanyang Technological University (NTU), sponsored by the China Scholarship Council (CSC), and am fortunate to be advised by Prof. [[Bo An](https://personal.ntu.edu.sg/boan/)] and Assoc. Prof. [[Nicolas Vun Chan Hua](https://dr.ntu.edu.sg/entities/person/Vun-Chan-Hua-Nicholas)]​. My research interests: 
 - AI Alignment
 - Natural Language Processing
 - Content Moderation
