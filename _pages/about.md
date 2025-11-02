@@ -33,10 +33,11 @@ I am a Ph.D. student in Cyber Security at Jinan University, under the primary su
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/AMGSN.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition (PR'25), 2025: 112023. [[Paper]](https://doi.org/10.1016/j.patcog.2025.112023) [[Code]](https://github.com/fenffef/AMGSN/tree/main) (**Corresponding Author**)
+Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition (PR'25), 2025: 112023.
 
-[**Code**](https://github.com/yayayacc/MUR) &nbsp;
-[![](https://img.shields.io/github/stars/yayayacc/MUR?style=social&label=Code+Stars)](https://github.com/yayayacc/MUR)
+[[Paper]](https://doi.org/10.1016/j.patcog.2025.112023) [[Code]](https://github.com/fenffef/AMGSN/tree/main) 
+
+(**Corresponding Author**)
 
 </div>
 </div>
@@ -95,8 +96,6 @@ Qin Liu*, **Xuan Feng\***, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-or
 **Xuan Feng**, Tianlong Gu, Liang Chang, Xiaoli Liu, PROTECT: Parameter-Efficient Tuning for Few-Shot Robust Chinese Text Correction[J], in IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP'24), doi: 10.1109/TASLP.2024.3414333.
 
 [[Paper]](https://ieeexplore.ieee.org/document/10557151)  [[Code]](https://github.com/fenffef/PROTECT)
-
-(**Co-first Author**)
 
 </div>
 </div>
