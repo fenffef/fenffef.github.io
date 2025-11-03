@@ -23,6 +23,10 @@ I am a Ph.D. student in Cyber Security at Jinan University, under the primary su
 - AI Safety
 - Content Moderation
 - Fairness
+- Recommender System
+  
+My research aims to understand and enhance the capabilities of next-generation general AI systems in real-world applications.
+Specifically, my work focuses on fairness in large language models and multimodal recommender systems, addressing algorithmic bias, representation disparities, and safety issues to build trustworthy and equitable AI technologies.
 
 # 🔥 News
 - 2025.06 One paper accepted by Pattern Recognition (PR 2025).  🎉  Appreciate the efforts of the co-author @Hao Li.
