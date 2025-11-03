@@ -68,7 +68,7 @@ Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Un
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TAFFC 2025</div><img src='images/SCARE.png' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TAFFC 2024</div><img src='images/SCARE.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Tianlong Gu, Mingfeng Feng, **Xuan Feng**✉,  Xuemin Wang. SCARE: A Novel Framework to Enhance Chinese Harmful Memes Detection[J], in IEEE Transactions on Affective Computing (TAFFC'24), 2024. doi: 10.1109/TAFFC.2024.3481419.
