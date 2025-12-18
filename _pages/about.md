@@ -105,7 +105,7 @@ Qin Liu*, **Xuan Feng\***, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-or
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICDE 2024</div><img src='images/PROTECT.png' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICDE 2024</div><img src='images/dtdbd.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Jiayang Li\*, **Xuan Feng\***, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing Distillation Framework for Multi-domain Fake News Detection[C], 2024 IEEE 40th International Conference on Data Engineering (ICDE'24), Utrecht, Netherlands, 2024, pp. 3627-3639, doi: 10.1109/ICDE60146.2024.00279.
@@ -118,11 +118,20 @@ Jiayang Li\*, **Xuan Feng\***, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing
 </div>
 </div>
 
-- **Xuan Feng**, Tianlong Gu, Xuguang Bao, Long Li. Behavior-Based Ethical Understanding in Chinese Social News[J], in IEEE Transactions on Affective Computing (TAFFC'23), vol. 14, no. 3, pp. 2349-2360, 1 July-Sept. 2023, doi: 10.1109/TAFFC.2022.3160745. [[Paper]](https://ieeexplore.ieee.org/document/9739920) [[Code]](https://github.com/fenffef/BEU-BERT-master)
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICDE 2024</div><img src='images/beu.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-- 古天龙, **冯旋**, 李龙, 包旭光, 李云辉. 基于社会新闻数据集的伦理行为判别方法[J]. 计算机研究与发展, 2021, 58(02): 253-263. doi: 10.7544/issn1000-1239.2021.20200727. [[Paper]](https://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2021.20200727)
+- **Xuan Feng**, Tianlong Gu, Xuguang Bao, Long Li. Behavior-Based Ethical Understanding in Chinese Social News[J], in IEEE Transactions on Affective Computing (TAFFC'23), vol. 14, no. 3, pp. 2349-2360, 1 July-Sept. 2023, doi: 10.1109/TAFFC.2022.3160745.
+
+[[Paper](https://ieeexplore.ieee.org/document/9739920)]
+[[Code](https://github.com/fenffef/BEU-BERT-master)]
+
+</div>
+</div>
 
 - Peipeng Yu, Jiajan Chen, **Xuan Feng**, Zhihua Xia. CHEAT: A Large-scale Dataset for Detecting CHatGPT-writtEn AbsTracts[J]. IEEE Transactions on Big Data, 2025 (01): 1-9. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10858415)
+
+- 古天龙, **冯旋**, 李龙, 包旭光, 李云辉. 基于社会新闻数据集的伦理行为判别方法[J]. 计算机研究与发展, 2021, 58(02): 253-263. doi: 10.7544/issn1000-1239.2021.20200727. [[Paper]](https://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2021.20200727)
 
 # 🎖 Honors and Awards
 - 2021.10 National Scholarship
