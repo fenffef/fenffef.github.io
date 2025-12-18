@@ -19,14 +19,14 @@ redirect_from:
 
 
 # 😊 About me
-I am a Ph.D. student in Cyber Security at Jinan University, supervised by Prof. [Tianlong Gu](https://scholar.google.com/citations?user=bH5C2hAAAAAJ), affiliated with the [Engineering Research Center of Trustworthy Artificial Intelligence (Ministry of Education)](https://trust.jnu.edu.cn/sy/list.htm). I am currently a visiting student at Nanyang Technological University (NTU), sponsored by the China Scholarship Council (CSC), and am fortunate to be advised by Prof. [Bo An](https://personal.ntu.edu.sg/boan) and Assoc. Prof. [Nicolas Vun Chan Hua](https://dr.ntu.edu.sg/entities/person/Vun-Chan-Hua-Nicholas)​. My research interests: 
-- AI Safety
-- Content Moderation
-- Fairness
-- Recommender System
+I am a Ph.D. student in Cyber Security at Jinan University, supervised by Prof. [Tianlong Gu](https://scholar.google.com/citations?user=bH5C2hAAAAAJ), affiliated with the [Engineering Research Center of Trustworthy Artificial Intelligence (Ministry of Education)](https://trust.jnu.edu.cn/sy/list.htm). I am currently a visiting student at Nanyang Technological University (NTU), sponsored by the China Scholarship Council (CSC), and am fortunate to be advised by Prof. [Bo An](https://personal.ntu.edu.sg/boan) and Assoc. Prof. [Nicolas Vun Chan Hua](https://dr.ntu.edu.sg/entities/person/Vun-Chan-Hua-Nicholas)​.
+
+Research interests: Trustworthy AI, with a focus on AI Safety, Content Moderation, and Fairness. I am also interested in multimodal learning and recommender systems, and have collaborated with other researchers on related topics.
   
+I collaborate with Dr. [Shuai Zhao](https://shuaizhao95.github.io/) on AI safety and trustworthy large language models, and with Dr. [Yanhao Jia](https://curisejia.github.io/) on multimodal bias.
+
 My research aims to understand and enhance the capabilities of next-generation general AI systems in real-world applications.
-Specifically, my work focuses on fairness in large language models and multimodal recommender systems, addressing algorithmic bias, representation disparities, and safety issues to build trustworthy and equitable AI technologies.
+
 
 # 🔥 News
 - 2025.06 One paper accepted by Pattern Recognition (PR 2025).  🎉  Appreciate the efforts of the co-author @Hao Li.
