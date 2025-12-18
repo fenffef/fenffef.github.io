@@ -121,7 +121,7 @@ Jiayang Li\*, **Xuan Feng\***, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TAFFC 2023</div><img src='images/beu.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- **Xuan Feng**, Tianlong Gu, Xuguang Bao, Long Li. Behavior-Based Ethical Understanding in Chinese Social News[J], in IEEE Transactions on Affective Computing (TAFFC'23), vol. 14, no. 3, pp. 2349-2360, 1 July-Sept. 2023, doi: 10.1109/TAFFC.2022.3160745.
+**Xuan Feng**, Tianlong Gu, Xuguang Bao, Long Li. Behavior-Based Ethical Understanding in Chinese Social News[J], in IEEE Transactions on Affective Computing (TAFFC'23), vol. 14, no. 3, pp. 2349-2360, 1 July-Sept. 2023, doi: 10.1109/TAFFC.2022.3160745.
 
 [[Paper](https://ieeexplore.ieee.org/document/9739920)]
 [[Code](https://github.com/fenffef/BEU-BERT-master)]
