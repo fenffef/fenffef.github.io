@@ -81,7 +81,7 @@ Tianlong Gu, Mingfeng Feng, **Xuan Feng**✉,  Xuemin Wang. SCARE: A Novel Frame
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RecSys 2024</div><img src='images/FAIRCRS.png' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RecSys 2024 Spotlight</div><img src='images/FAIRCRS.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Qin Liu*, **Xuan Feng\***, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-oriented Fairness in Conversational Recommendation Systems[C], In Proceedings of The 18th ACM Conference on Recommender Systems (RecSys'24), October 14–18, 2024, Bari, Italy. ACM, New York, NY, USA,  doi: 10.1145/3640457.3688150.
@@ -105,7 +105,7 @@ Qin Liu*, **Xuan Feng\***, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-or
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICDE 2024</div><img src='images/dtdbd.png' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICDE 2024 Oral</div><img src='images/dtdbd.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Jiayang Li\*, **Xuan Feng\***, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing Distillation Framework for Multi-domain Fake News Detection[C], 2024 IEEE 40th International Conference on Data Engineering (ICDE'24), Utrecht, Netherlands, 2024, pp. 3627-3639, doi: 10.1109/ICDE60146.2024.00279.
