@@ -34,6 +34,17 @@ My research aims to understand and enhance the capabilities of next-generation g
 
 
 # 📝 Publications
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/c2po.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Xuan Feng**, Bo An, Tianlong Gu✉, Liang Chang, Fengrui Hao, Peipeng Yu, Shuai Zhao, C2PO: Diagnosing and Disentangling Bias Shortcuts in LLMs. arXiv preprint arXiv:2512.23430.
+
+[[Paper]]([https://doi.org/10.1016/j.patcog.2025.112023](https://arxiv.org/abs/2512.23430))
+
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/AMGSN.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
