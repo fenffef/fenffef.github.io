@@ -76,7 +76,7 @@ Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Un
 
 **Xuan Feng**, Tianlong Gu, Xiaoli Liu, Liang Chang, Learning from Mistakes: Self-correct Adversarial Training for Chinese Unnatural Text Correction[C], the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI'25). 2025, 39(22): 23887-23895.
 
-[[Paper]](https://arxiv.org/abs/2412.17279)
+[[Paper]](https://arxiv.org/abs/2412.17279)[[Code]](https://github.com/fenffef/LIMIT)
 
 </div>
 </div>
