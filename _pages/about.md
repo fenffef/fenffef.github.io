@@ -102,7 +102,7 @@ Qin Liu*, **Xuan Feng\***, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-or
 
 [[Paper]](https://dl.acm.org/doi/10.1145/3640457.3688150) [[Code]](https://github.com/LQlq123/FairCRS)
 
-(**Co-first Author**)
+(**Equal contributions**)
 
 </div>
 </div>
@@ -127,7 +127,7 @@ Jiayang Li\*, **Xuan Feng\***, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing
 [[Paper](https://ieeexplore.ieee.org/abstract/document/10598140)]
 [[Code](https://github.com/ningljy/DTDBD)]
 
-(**Co-first Author**)
+(**Equal contributions**)
 
 </div>
 </div>
