@@ -33,7 +33,7 @@ My research aims to understand and enhance the capabilities of next-generation g
 - 2025.05 One paper accepted by The Forty-second International Conference on Machine Learning (ICML 2025).  🎉
 
 
-# 📝 Publications
+# 📝 Preprints
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/C2PO.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -44,6 +44,9 @@ My research aims to understand and enhance the capabilities of next-generation g
 
 </div>
 </div>
+
+
+# 📝 Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/AMGSN.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
