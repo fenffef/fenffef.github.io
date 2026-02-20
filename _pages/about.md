@@ -152,5 +152,5 @@ Jiayang Li\*, **Xuan Feng\***, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing
 - 2021.10 National Scholarship
 - 2024.10 National Scholarship
 
-# Conference Reviewer
+# 👨🏻‍💻 Conference Reviewer
 ICLM 2026、KDD 2026、AAAI 2026.
