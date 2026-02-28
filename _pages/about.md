@@ -29,6 +29,7 @@ My research aims to understand and enhance the capabilities of next-generation g
 
 
 # 🔥 News
+- 2025.02 One paper accepted by Pattern Recognition (PR 2026).  🎉  Appreciate the efforts of the co-author @Luwei Xiao.
 - 2025.06 One paper accepted by Pattern Recognition (PR 2025).  🎉  Appreciate the efforts of the co-author @Hao Li.
 - 2025.05 One paper accepted by The Forty-second International Conference on Machine Learning (ICML 2025).  🎉
 
@@ -47,6 +48,19 @@ My research aims to understand and enhance the capabilities of next-generation g
 
 
 # 📝 Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='images/xiao.jpg' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Zhengnan Yin, Luwei Xiao, **Xuan Feng**, Yiwei Chen, Xianxun Zhu, Cai Luo, Faten S Alamri, Rui Mao, Erik Cambria, AOSNet-Sec: Aperture–Orientation–Spectrum Fusion with Statistical Markov Repair for Trustworthy Super-Resolution [J], Pattern Recognition (PR'26).
+
+[[Paper]]([https://doi.org/10.1016/j.patcog.2025.112023](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320326003110?via%3Dihub))
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/LVM.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/AMGSN.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
