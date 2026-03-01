@@ -31,7 +31,7 @@ My research aims to understand and enhance the capabilities of next-generation g
 # 🔥 News
 - 2025.02 One paper accepted by Pattern Recognition (PR 2026).  🎉  Appreciate the efforts of the co-author @Luwei Xiao.
 - 2025.06 One paper accepted by Pattern Recognition (PR 2025).  🎉  Appreciate the efforts of the co-author @Hao Li.
-- 2025.05 One paper accepted by The Forty-second International Conference on Machine Learning (ICML 2025).  🎉
+- 2025.05 One paper accepted by The Forty-second International Conference on Machine Learning (ICML 2025).  🎉 Appreciate the efforts of the co-author @Peipeng Yu.
 
 
 # 📝 Preprints
@@ -48,18 +48,6 @@ My research aims to understand and enhance the capabilities of next-generation g
 
 
 # 📝 Publications
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='images/xiao.jpg' alt="sym" width="90%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-Zhengnan Yin, Luwei Xiao, **Xuan Feng**, Yiwei Chen, Xianxun Zhu, Cai Luo, Faten S Alamri, Rui Mao, Erik Cambria, AOSNet-Sec: Aperture–Orientation–Spectrum Fusion with Statistical Markov Repair for Trustworthy Super-Resolution [J], Pattern Recognition (PR'26).
-
-[[Paper]](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320326003110?via%3Dihub)
-
-</div>
-</div>
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/AMGSN.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -72,16 +60,6 @@ Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Sup
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/LVM.png' alt="sym" width="90%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Unlocking the capabilities of vision-language models for generalizable and explainable deepfake detection. Proceedings of the 42nd International Conference on Machine Learning (ICML'25), PMLR 267:72925-72943.
-
-[[Paper](https://openreview.net/pdf?id=vDB2oX3Wl3)]
-[[Code]](https://github.com/botianzhe/LVLM-DFD)
-
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/LIMIT.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -143,6 +121,31 @@ Jiayang Li\*, **Xuan Feng\***, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing
 
 </div>
 </div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='images/xiao.jpg' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Zhengnan Yin, Luwei Xiao, **Xuan Feng**, Yiwei Chen, Xianxun Zhu, Cai Luo, Faten S Alamri, Rui Mao, Erik Cambria, AOSNet-Sec: Aperture–Orientation–Spectrum Fusion with Statistical Markov Repair for Trustworthy Super-Resolution [J], Pattern Recognition (PR'26).
+
+[[Paper]](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320326003110?via%3Dihub)
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/LVM.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Unlocking the capabilities of vision-language models for generalizable and explainable deepfake detection. Proceedings of the 42nd International Conference on Machine Learning (ICML'25), PMLR 267:72925-72943.
+
+[[Paper](https://openreview.net/pdf?id=vDB2oX3Wl3)]
+[[Code]](https://github.com/botianzhe/LVLM-DFD)
+
+</div>
+</div>
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TAFFC 2023</div><img src='images/beu.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
