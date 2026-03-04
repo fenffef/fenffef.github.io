@@ -21,11 +21,9 @@ redirect_from:
 # 😊 About me
 I am a Ph.D. student in Cyber Security at Jinan University, supervised by Prof. [Tianlong Gu](https://scholar.google.com/citations?user=bH5C2hAAAAAJ), affiliated with the [Engineering Research Center of Trustworthy Artificial Intelligence (Ministry of Education)](https://trust.jnu.edu.cn/sy/list.htm). I am currently a visiting student at Nanyang Technological University (NTU), sponsored by the China Scholarship Council (CSC), and am fortunate to be supervised by Prof. [Bo An](https://personal.ntu.edu.sg/boan) (AAAI Fellow) and Assoc. Prof. [Nicolas Vun Chan Hua](https://dr.ntu.edu.sg/entities/person/Vun-Chan-Hua-Nicholas)​.
 
-Research interests: Trustworthy AI, with a focus on AI Safety, Content Moderation, and Fairness. I am also interested in multimodal learning and recommender systems, and have collaborated with other researchers on related topics.
+Research interests: My research centers on advancing Trustworthy AI, focusing specifically on AI safety, value alignment, content moderation, and algorithmic fairness. Rather than treating these as isolated concepts, I actively integrate them into the study of complex architectures, investigating how to build safe and aligned multimodal learning models and recommender systems. Through collaborative research in these intersecting areas, my ultimate goal is to understand and enhance the capabilities of next-generation general AI, ensuring these systems are robust, reliable, and responsibly deployed in real-world applications.
   
 I collaborate with Dr. [Shuai Zhao](https://shuaizhao95.github.io/) on AI safety and trustworthy large language models, and with Dr. [Yanhao Jia](https://curisejia.github.io/) on multimodal bias.
-
-My research aims to understand and enhance the capabilities of next-generation general AI systems in real-world applications.
 
 
 # 🔥 News
