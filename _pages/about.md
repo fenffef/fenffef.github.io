@@ -166,4 +166,4 @@ Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Un
 - 2024.10 National Scholarship
 
 # 👨🏻‍💻 Conference Reviewer
-ICLM 2026、KDD 2026、AAAI 2026.
+AAAI 2026, ACL ARR 2026, ICML 2026, KDD 2026, etc.
