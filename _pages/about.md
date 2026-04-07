@@ -27,13 +27,15 @@ I collaborate with Dr. [Shuai Zhao](https://shuaizhao95.github.io/) on AI safety
 
 
 # 🔥 News
+- 2026.04 One paper accepted by The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026). 🎉
 - 2025.02 One paper accepted by Pattern Recognition (PR 2026).  🎉  Appreciate the efforts of the co-author @Luwei Xiao.
 - 2025.06 One paper accepted by Pattern Recognition (PR 2025).  🎉  Appreciate the efforts of the co-author @Hao Li.
 - 2025.05 One paper accepted by The Forty-second International Conference on Machine Learning (ICML 2025).  🎉 Appreciate the efforts of the co-author @Peipeng Yu.
 
 
-# 📝 Preprints
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/C2PO.png' alt="sym" width="90%"></div></div>
+
+# 📝 Publications
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/C2PO.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Xuan Feng**, Bo An, Tianlong Gu✉, Liang Chang, Fengrui Hao, Peipeng Yu, Shuai Zhao, C2PO: Diagnosing and Disentangling Bias Shortcuts in LLMs. arXiv preprint arXiv:2512.23430.
@@ -45,7 +47,6 @@ I collaborate with Dr. [Shuai Zhao](https://shuaizhao95.github.io/) on AI safety
 </div>
 
 
-# 📝 Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/AMGSN.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
