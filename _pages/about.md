@@ -33,6 +33,18 @@ I collaborate with Dr. [Shuai Zhao](https://shuaizhao95.github.io/) on AI safety
 - 2025.05 One paper accepted by The Forty-second International Conference on Machine Learning (ICML 2025).  🎉 Appreciate the efforts of the co-author @Peipeng Yu.
 
 
+# 📝 Preprints
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/Self-Debias.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Xuan Feng**, Shuai Zhao, Luwei Xiao, Tianlong Gu✉, Bo An, Self-Debias: Self-correcting for Debiasing Large Language Models. arXiv preprint arXiv:2604.xxxxx.
+
+[[Paper]](https://arxiv.org/abs/xxxxx)
+
+
+</div>
+</div>
+
 
 # 📝 Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 Findings</div><img src='images/C2PO.png' alt="sym" width="90%"></div></div>
