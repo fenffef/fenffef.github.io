@@ -37,9 +37,9 @@ I collaborate with Dr. [Shuai Zhao](https://shuaizhao95.github.io/) on AI safety
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/Self-Debias.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Xuan Feng**, Shuai Zhao, Luwei Xiao, Tianlong Gu✉, Bo An, Self-Debias: Self-correcting for Debiasing Large Language Models. arXiv preprint arXiv:2604.xxxxx.
+**Xuan Feng**, Shuai Zhao, Luwei Xiao, Tianlong Gu✉, Bo An, Self-Debias: Self-correcting for Debiasing Large Language Models. arXiv preprint arXiv:2604.08243.
 
-[[Paper]](https://arxiv.org/abs/xxxxx)
+[[Paper]](https://arxiv.org/abs/2604.08243v1)
 
 
 </div>
