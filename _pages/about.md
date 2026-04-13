@@ -21,7 +21,9 @@ redirect_from:
 # 😊 About me
 I am a Ph.D. student in Cyber Security at Jinan University, supervised by Prof. [Tianlong Gu](https://scholar.google.com/citations?user=bH5C2hAAAAAJ), affiliated with the [Engineering Research Center of Trustworthy Artificial Intelligence (Ministry of Education)](https://trust.jnu.edu.cn/sy/list.htm). I am currently a joint PhD student at Nanyang Technological University (NTU), sponsored by the China Scholarship Council (CSC), and am fortunate to be supervised by Prof. [Bo An](https://personal.ntu.edu.sg/boan) (AAAI Fellow).
 
-Research interests: My research centers on advancing **Trustworthy AI**, focusing specifically on AI safety, value alignment, content moderation, and algorithmic fairness. Rather than treating these as isolated concepts, I actively integrate them into the study of complex architectures, investigating how to build safe and aligned multimodal learning models and recommender systems. Through collaborative research in these intersecting areas, my ultimate goal is to understand and enhance the capabilities of next-generation general AI, ensuring these systems are robust, reliable, and responsibly deployed in real-world applications.
+Research interests:
+
+My research centers on advancing **Trustworthy AI**, focusing specifically on AI safety, value alignment, content moderation, and algorithmic fairness. Rather than treating these as isolated concepts, I actively integrate them into the study of complex architectures, investigating how to build safe and aligned multimodal learning models and recommender systems. Through collaborative research in these intersecting areas, my ultimate goal is to understand and enhance the capabilities of next-generation general AI, ensuring these systems are robust, reliable, and responsibly deployed in real-world applications.
   
 
 # 🔥 News
@@ -54,7 +56,7 @@ Research interests: My research centers on advancing **Trustworthy AI**, focusin
 
 
 </div>
-<!-- </div> -->
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/AMGSN.png' alt="sym" width="90%"></div></div>
