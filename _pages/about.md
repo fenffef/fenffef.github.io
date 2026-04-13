@@ -23,8 +23,6 @@ I am a Ph.D. student in Cyber Security at Jinan University, supervised by Prof. 
 
 Research interests: My research centers on advancing **Trustworthy AI**, focusing specifically on AI safety, value alignment, content moderation, and algorithmic fairness. Rather than treating these as isolated concepts, I actively integrate them into the study of complex architectures, investigating how to build safe and aligned multimodal learning models and recommender systems. Through collaborative research in these intersecting areas, my ultimate goal is to understand and enhance the capabilities of next-generation general AI, ensuring these systems are robust, reliable, and responsibly deployed in real-world applications.
   
-I collaborate with Dr. [Shuai Zhao](https://shuaizhao95.github.io/) on AI safety and trustworthy large language models, and with Dr. [Yanhao Jia](https://curisejia.github.io/) on multimodal bias.
-
 
 # 🔥 News
 - 2026.04 One paper accepted by The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026). 🎉
