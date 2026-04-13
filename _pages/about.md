@@ -56,7 +56,7 @@ I collaborate with Dr. [Shuai Zhao](https://shuaizhao95.github.io/) on AI safety
 
 
 </div>
-</div>
+<!-- </div> -->
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/AMGSN.png' alt="sym" width="90%"></div></div>
