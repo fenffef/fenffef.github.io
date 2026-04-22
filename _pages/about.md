@@ -134,17 +134,6 @@ Jiayang Li\*, Xuan Feng\*, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing Dis
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='images/xiao.jpg' alt="sym" width="90%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-Zhengnan Yin, Luwei Xiao, Xuan Feng, Yiwei Chen, Xianxun Zhu, Cai Luo, Faten S Alamri, Rui Mao, Erik Cambria, AOSNet-Sec: Aperture–Orientation–Spectrum Fusion with Statistical Markov Repair for Trustworthy Super-Resolution [J], Pattern Recognition (PR'26).
-
-[[Paper]](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320326003110?via%3Dihub)
-
-</div>
-</div>
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TAFFC 2023</div><img src='images/beu.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -152,6 +141,17 @@ Xuan Feng, Tianlong Gu, Xuguang Bao, Long Li. Behavior-Based Ethical Understandi
 
 [[Paper]](https://ieeexplore.ieee.org/document/9739920)
 [[Code]](https://github.com/fenffef/BEU-BERT-master)
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='images/xiao.jpg' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Zhengnan Yin, Luwei Xiao, Xuan Feng, Yiwei Chen, Xianxun Zhu, Cai Luo, Faten S Alamri, Rui Mao, Erik Cambria, AOSNet-Sec: Aperture–Orientation–Spectrum Fusion with Statistical Markov Repair for Trustworthy Super-Resolution [J], Pattern Recognition (PR'26).
+
+[[Paper]](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320326003110?via%3Dihub)
 
 </div>
 </div>
