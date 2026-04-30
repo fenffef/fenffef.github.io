@@ -27,13 +27,15 @@ My research centers on advancing **Trustworthy AI**, focusing specifically on AI
   
 
 # 🔥 News
+- 2025.05 One paper accepted by The International Conference on Machine Learning (ICML 2026).  🎉 Appreciate the efforts of the co-author @[Shuai Zhao](https://shuaizhao95.github.io/).
 - 2026.04 One paper accepted by The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026). 🎉 Appreciate the efforts of the co-author @[Shuai Zhao](https://shuaizhao95.github.io/).
 - 2026.02 One paper accepted by Pattern Recognition (PR 2026).  🎉  Appreciate the efforts of the co-author @[Luwei Xiao](https://scholar.google.com/citations?user=UiWugpoAAAAJ&hl).
 - 2025.06 One paper accepted by Pattern Recognition (PR 2025).  🎉  Appreciate the efforts of the co-author @Hao Li.
 - 2025.05 One paper accepted by The Forty-second International Conference on Machine Learning (ICML 2025).  🎉 Appreciate the efforts of the co-author @[Peipeng Yu](https://scholar.google.com/citations?user=ca1eM1kAAAAJ&hl).
 
 
-# 📝 Preprints
+
+# 📝 Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/Self-Debias.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -46,7 +48,6 @@ Xuan Feng, Shuai Zhao, Luwei Xiao, Tianlong Gu✉, Bo An, Self-Debias: Self-corr
 </div>
 
 
-# 📝 Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 Findings</div><img src='images/C2PO.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
