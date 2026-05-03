@@ -148,17 +148,6 @@ Jiayang Li\*, **Xuan Feng**\*, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='images/xiao.jpg' alt="sym" width="90%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-Zhengnan Yin, Luwei Xiao, **Xuan Feng**, Yiwei Chen, Xianxun Zhu, Cai Luo, Faten S Alamri, Rui Mao, Erik Cambria, AOSNet-Sec: Aperture–Orientation–Spectrum Fusion with Statistical Markov Repair for Trustworthy Super-Resolution [J], Pattern Recognition (PR'26).
-
-[[Paper]](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320326003110?via%3Dihub)
-
-</div>
-</div>
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/LVM.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -171,8 +160,13 @@ Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Un
 </div>
 
 
+- **Xuan Feng**, Yuan Yao, Tianlong Gu, Liang Chang, Xiaoli Liu. Mitigating Implicit Bias in Chinese Toxic Speech Detection via Unbiased Contrastive Learning[J]. Transactions on Asian and Low-Resource Language Information Processing.
+
 - Peipeng Yu, Jiajan Chen, **Xuan Feng**, Zhihua Xia. CHEAT: A Large-scale Dataset for Detecting CHatGPT-writtEn AbsTracts[J]. IEEE Transactions on Big Data, 2025 (01): 1-9. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10858415)
 [[Code](https://github.com/botianzhe/CHEAT)]
+
+- Zhengnan Yin, Luwei Xiao, **Xuan Feng**, Yiwei Chen, Xianxun Zhu, Cai Luo, Faten S Alamri, Rui Mao, Erik Cambria, AOSNet-Sec: Aperture–Orientation–Spectrum Fusion with Statistical Markov Repair for Trustworthy Super-Resolution [J], Pattern Recognition (PR'26).
+[[Paper]](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320326003110?via%3Dihub)
 
 - 古天龙, **冯旋**, 李龙, 包旭光, 李云辉. 基于社会新闻数据集的伦理行为判别方法[J]. 计算机研究与发展, 2021, 58(02): 253-263. doi: 10.7544/issn1000-1239.2021.20200727. [[Paper]](https://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2021.20200727)
 
