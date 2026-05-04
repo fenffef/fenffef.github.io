@@ -86,6 +86,18 @@ Jiayang Li\*, **Xuan Feng**\*, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/LVM.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Unlocking the capabilities of vision-language models for generalizable and explainable deepfake detection. Proceedings of the 42nd International Conference on Machine Learning (ICML'25), PMLR 267:72925-72943.
+
+[[Paper]](https://openreview.net/pdf?id=vDB2oX3Wl3)
+[[Code]](https://github.com/botianzhe/LVLM-DFD)
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TASLP 2024</div><img src='images/PROTECT.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -143,18 +155,6 @@ Qin Liu*, **Xuan Feng**\*, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-or
 
 [[Paper]](https://ieeexplore.ieee.org/document/9739920)
 [[Code]](https://github.com/fenffef/BEU-BERT-master)
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/LVM.png' alt="sym" width="90%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Unlocking the capabilities of vision-language models for generalizable and explainable deepfake detection. Proceedings of the 42nd International Conference on Machine Learning (ICML'25), PMLR 267:72925-72943.
-
-[[Paper]](https://openreview.net/pdf?id=vDB2oX3Wl3)
-[[Code]](https://github.com/botianzhe/LVLM-DFD)
 
 </div>
 </div>
