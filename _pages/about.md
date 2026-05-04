@@ -61,6 +61,42 @@ My research centers on advancing **Trustworthy AI**, focusing specifically on AI
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/LIMIT.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Xuan Feng**, Tianlong Gu, Xiaoli Liu, Liang Chang, Learning from Mistakes: Self-correct Adversarial Training for Chinese Unnatural Text Correction[C], the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI'25). 2025, 39(22): 23887-23895.
+
+[[Paper]](https://arxiv.org/abs/2412.17279)[[Code]](https://github.com/fenffef/LIMIT)
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICDE 2024 Oral</div><img src='images/dtdbd.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Jiayang Li\*, **Xuan Feng**\*, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing Distillation Framework for Multi-domain Fake News Detection[C], 2024 IEEE 40th International Conference on Data Engineering (ICDE'24), Utrecht, Netherlands, 2024, pp. 3627-3639, doi: 10.1109/ICDE60146.2024.00279.
+
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/10598140)
+[[Code]](https://github.com/ningljy/DTDBD)
+
+(Equal contributions)
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TASLP 2024</div><img src='images/PROTECT.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Xuan Feng**, Tianlong Gu, Liang Chang, Xiaoli Liu, PROTECT: Parameter-Efficient Tuning for Few-Shot Robust Chinese Text Correction[J], in IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP'24), doi: 10.1109/TASLP.2024.3414333.
+
+[[Paper]](https://ieeexplore.ieee.org/document/10557151)  [[Code]](https://github.com/fenffef/PROTECT)
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/AMGSN.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -69,17 +105,6 @@ Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Sup
 [[Paper]](https://doi.org/10.1016/j.patcog.2025.112023) [[Code]](https://github.com/fenffef/AMGSN/tree/main) 
 
 (Corresponding Author)
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/LIMIT.png' alt="sym" width="90%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Xuan Feng**, Tianlong Gu, Xiaoli Liu, Liang Chang, Learning from Mistakes: Self-correct Adversarial Training for Chinese Unnatural Text Correction[C], the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI'25). 2025, 39(22): 23887-23895.
-
-[[Paper]](https://arxiv.org/abs/2412.17279)[[Code]](https://github.com/fenffef/LIMIT)
 
 </div>
 </div>
@@ -104,31 +129,6 @@ Tianlong Gu, Mingfeng Feng, **Xuan Feng**✉,  Xuemin Wang. SCARE: A Novel Fram
 Qin Liu*, **Xuan Feng**\*, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-oriented Fairness in Conversational Recommendation Systems[C], In Proceedings of The 18th ACM Conference on Recommender Systems (RecSys'24), October 14–18, 2024, Bari, Italy. ACM, New York, NY, USA,  doi: 10.1145/3640457.3688150.
 
 [[Paper]](https://dl.acm.org/doi/10.1145/3640457.3688150) [[Code]](https://github.com/LQlq123/FairCRS)
-
-(Equal contributions)
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TASLP 2024</div><img src='images/PROTECT.png' alt="sym" width="90%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Xuan Feng**, Tianlong Gu, Liang Chang, Xiaoli Liu, PROTECT: Parameter-Efficient Tuning for Few-Shot Robust Chinese Text Correction[J], in IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP'24), doi: 10.1109/TASLP.2024.3414333.
-
-[[Paper]](https://ieeexplore.ieee.org/document/10557151)  [[Code]](https://github.com/fenffef/PROTECT)
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICDE 2024 Oral</div><img src='images/dtdbd.png' alt="sym" width="90%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-Jiayang Li\*, **Xuan Feng**\*, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing Distillation Framework for Multi-domain Fake News Detection[C], 2024 IEEE 40th International Conference on Data Engineering (ICDE'24), Utrecht, Netherlands, 2024, pp. 3627-3639, doi: 10.1109/ICDE60146.2024.00279.
-
-[[Paper]](https://ieeexplore.ieee.org/abstract/document/10598140)
-[[Code]](https://github.com/ningljy/DTDBD)
 
 (Equal contributions)
 
