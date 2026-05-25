@@ -42,7 +42,7 @@ My research centers on advancing **Trustworthy AI**, focusing specifically on AI
 
 **Xuan Feng**, Shuai Zhao, Luwei Xiao, Tianlong Gu✉, Bo An, Self-Debias: Self-correcting for Debiasing Large Language Models. arXiv preprint arXiv:2604.08243.
 
-[[Paper]](https://arxiv.org/abs/2604.08243v1)
+[[Paper]](https://arxiv.org/abs/2604.08243v2)
 
 
 </div>
