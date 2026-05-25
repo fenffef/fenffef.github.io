@@ -40,7 +40,7 @@ My research centers on advancing **Trustworthy AI**, focusing specifically on AI
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/Self-Debias.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Xuan Feng**, Shuai Zhao, Luwei Xiao, Tianlong Gu✉, Bo An, Self-Debias: Self-correcting for Debiasing Large Language Models. arXiv preprint arXiv:2604.08243.
+**Xuan Feng**, Shuai Zhao, Luwei Xiao, Tianlong Gu✉, Bo An, Self-Debias: Self-correcting for Debiasing Large Language Models. Forty-third International Conference on Machine Learning, 2026.
 
 [[Paper]](https://arxiv.org/abs/2604.08243v2)
 
