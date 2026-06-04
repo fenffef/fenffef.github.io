@@ -23,12 +23,12 @@ I am a Ph.D. student in Cyber Security at Jinan University, supervised by Prof. 
 
 Research interests:
 
-My research centers on advancing **Trustworthy AI**, focusing specifically on AI safety, value alignment, content moderation, and algorithmic fairness. Rather than treating these as isolated concepts, I actively integrate them into the study of complex architectures, investigating how to build safe and aligned multimodal learning models and recommender systems. Through collaborative research in these intersecting areas, my ultimate goal is to understand and enhance the capabilities of next-generation general AI, ensuring these systems are robust, reliable, and responsibly deployed in real-world applications.
+My research centers on advancing **Trustworthy AI**, with a focus on AI safety, value alignment, content moderation, and algorithmic fairness. Rather than treating these as isolated concepts, I actively integrate them into the study of complex architectures, investigating how to build safe and aligned multimodal learning models and recommender systems. Through collaborative research in these intersecting areas, my ultimate goal is to understand and enhance the capabilities of next-generation general AI, ensuring these systems are robust, reliable, and responsibly deployed in real-world applications.
   
 
 # 🔥 News
-- 2026.05 One paper accepted by The International Conference on Machine Learning (ICML 2026).  🎉 Appreciate the efforts of the co-author @[Shuai Zhao](https://shuaizhao95.github.io/) and @[Luwei Xiao](https://scholar.google.com/citations?user=UiWugpoAAAAJ&hl).
 - 2026.06 One paper accepted by Pattern Recognition (PR 2026).  🎉
+- 2026.05 One paper accepted by The International Conference on Machine Learning (ICML 2026).  🎉 Appreciate the efforts of the co-author @[Shuai Zhao](https://shuaizhao95.github.io/) and @[Luwei Xiao](https://scholar.google.com/citations?user=UiWugpoAAAAJ&hl).
 - 2026.05 One paper accepted by The Transactions on Asian and Low-Resource Language Information Processing (TALLIP 2026).  🎉 Appreciate the efforts of the co-author @Yuan Yao.
 - 2026.04 One paper accepted by The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026). 🎉 Appreciate the efforts of the co-author @[Shuai Zhao](https://shuaizhao95.github.io/).
 - 2026.02 One paper accepted by Pattern Recognition (PR 2026).  🎉  Appreciate the efforts of the co-author @[Luwei Xiao](https://scholar.google.com/citations?user=UiWugpoAAAAJ&hl).
@@ -50,13 +50,22 @@ My research centers on advancing **Trustworthy AI**, focusing specifically on AI
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 Findings</div><img src='images/C2PO.png' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/C2PO.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Xuan Feng**, Bo An, Tianlong Gu✉, Liang Chang, Fengrui Hao, Peipeng Yu, Shuai Zhao, C2PO: Diagnosing and Disentangling Bias Shortcuts in LLMs. arXiv preprint arXiv:2512.23430.
 
 [[Paper]](https://arxiv.org/abs/2512.23430)
 
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='images/Value.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Xuan Feng**, Mingfeng Feng, Ning Zhang, Tianlong Gu✉, Liang Chang, Chenzhong Bin, A Hierarchical Evaluation Framework for Security and Trustworthiness in Large Vision-Language Models. PR 2026.
 
 </div>
 </div>
