@@ -19,7 +19,7 @@ redirect_from:
 
 
 # 😊 About me
-I am a Ph.D. student in Cyber Security at Jinan University, supervised by Prof. [Tianlong Gu](https://scholar.google.com/citations?user=bH5C2hAAAAAJ), affiliated with the [Engineering Research Center of Trustworthy Artificial Intelligence (Ministry of Education)](https://trust.jnu.edu.cn/sy/list.htm). I am currently a joint PhD student at Nanyang Technological University (NTU), sponsored by the China Scholarship Council (CSC), and am fortunate to be supervised by Prof. [Bo An](https://personal.ntu.edu.sg/boan) (AAAI Fellow).
+I am a Ph.D. student in Cyber Security at Jinan University, supervised by Prof. [Tianlong Gu](https://scholar.google.com/citations?user=bH5C2hAAAAAJ), affiliated with the [Engineering Research Center of Trustworthy Artificial Intelligence (Ministry of Education)](https://trust.jnu.edu.cn/sy/list.htm). I am currently a joint PhD student at Nanyang Technological University (NTU), sponsored by the China Scholarship Council (CSC), and am fortunate to be supervised by AAAI Fellow, Prof. [Bo An](https://personal.ntu.edu.sg/boan).
 
 Research interests:
 
