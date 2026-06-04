@@ -62,7 +62,7 @@ My research centers on advancing **Trustworthy AI**, with a focus on AI safety, 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='images/Value.png' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='images/Value.jpg' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Xuan Feng**, Mingfeng Feng, Ning Zhang, Tianlong Gu✉, Liang Chang, Chenzhong Bin, A Hierarchical Evaluation Framework for Security and Trustworthiness in Large Vision-Language Models. PR 2026.
