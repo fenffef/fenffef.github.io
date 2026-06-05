@@ -82,15 +82,14 @@ My research centers on advancing **Trustworthy AI**, with a focus on AI safety, 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICDE 2024 Oral</div><img src='images/dtdbd.png' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/AMGSN.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Jiayang Li\*, **Xuan Feng**\*, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing Distillation Framework for Multi-domain Fake News Detection[C], 2024 IEEE 40th International Conference on Data Engineering (ICDE'24), Utrecht, Netherlands, 2024, pp. 3627-3639, doi: 10.1109/ICDE60146.2024.00279.
+Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition (PR'25), 2025: 112023.
 
-[[Paper]](https://ieeexplore.ieee.org/abstract/document/10598140)
-[[Code]](https://github.com/ningljy/DTDBD)
+[[Paper]](https://doi.org/10.1016/j.patcog.2025.112023) [[Code]](https://github.com/fenffef/AMGSN/tree/main) 
 
-(Equal contributions)
+(Corresponding Author)
 
 </div>
 </div>
@@ -108,25 +107,27 @@ Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Un
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICDE 2024 Oral</div><img src='images/dtdbd.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Jiayang Li\*, **Xuan Feng**\*, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing Distillation Framework for Multi-domain Fake News Detection[C], 2024 IEEE 40th International Conference on Data Engineering (ICDE'24), Utrecht, Netherlands, 2024, pp. 3627-3639, doi: 10.1109/ICDE60146.2024.00279.
+
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/10598140)
+[[Code]](https://github.com/ningljy/DTDBD)
+
+(Equal contributions)
+
+</div>
+</div>
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TASLP 2024</div><img src='images/PROTECT.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Xuan Feng**, Tianlong Gu, Liang Chang, Xiaoli Liu, PROTECT: Parameter-Efficient Tuning for Few-Shot Robust Chinese Text Correction[J], in IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP'24), doi: 10.1109/TASLP.2024.3414333.
 
 [[Paper]](https://ieeexplore.ieee.org/document/10557151)  [[Code]](https://github.com/fenffef/PROTECT)
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/AMGSN.png' alt="sym" width="90%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition (PR'25), 2025: 112023.
-
-[[Paper]](https://doi.org/10.1016/j.patcog.2025.112023) [[Code]](https://github.com/fenffef/AMGSN/tree/main) 
-
-(Corresponding Author)
 
 </div>
 </div>
@@ -171,7 +172,6 @@ Qin Liu*, **Xuan Feng**\*, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-or
 
 
 - **Xuan Feng**, Yuan Yao, Tianlong Gu, Liang Chang, Xiaoli Liu. Mitigating Implicit Bias in Chinese Toxic Speech Detection via Unbiased Contrastive Learning[J]. Transactions on Asian and Low-Resource Language Information Processing.
-
 
 - Zhengnan Yin, Luwei Xiao, **Xuan Feng**, Yiwei Chen, Xianxun Zhu, Cai Luo, Faten S Alamri, Rui Mao, Erik Cambria, AOSNet-Sec: Aperture–Orientation–Spectrum Fusion with Statistical Markov Repair for Trustworthy Super-Resolution [J], Pattern Recognition (PR'26).
 [[Paper]](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320326003110?via%3Dihub)
