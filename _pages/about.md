@@ -172,6 +172,7 @@ Qin Liu*, **Xuan Feng**\*, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-or
 
 
 - **Xuan Feng**, Yuan Yao, Tianlong Gu, Liang Chang, Xiaoli Liu. Mitigating Implicit Bias in Chinese Toxic Speech Detection via Unbiased Contrastive Learning. Transactions on Asian and Low-Resource Language Information Processing (TALLIP'2026)
+[[Paper]](https://dl.acm.org/doi/10.1145/3816029)
 
 - Zhengnan Yin, Luwei Xiao, **Xuan Feng**, Yiwei Chen, Xianxun Zhu, Cai Luo, Faten S Alamri, Rui Mao, Erik Cambria, AOSNet-Sec: Aperture–Orientation–Spectrum Fusion with Statistical Markov Repair for Trustworthy Super-Resolution. Pattern Recognition (PR'2026)
 [[Paper]](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320326003110?via%3Dihub)
