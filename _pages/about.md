@@ -41,7 +41,7 @@ My research centers on advancing **Trustworthy AI**, with a focus on AI safety, 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/Self-Debias.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Xuan Feng**, Shuai Zhao, Luwei Xiao, Tianlong Gu✉, Bo An, Self-Debias: Self-correcting for Debiasing Large Language Models. Forty-third International Conference on Machine Learning, 2026.
+**Xuan Feng**, Shuai Zhao, Luwei Xiao, Tianlong Gu✉, Bo An. Self-Debias: Self-correcting for Debiasing Large Language Models. Proceedings of the 43rd International Conference on Machine Learning （ICML‘2026）
 
 [[Paper]](https://arxiv.org/abs/2604.08243v2)
 
@@ -53,7 +53,7 @@ My research centers on advancing **Trustworthy AI**, with a focus on AI safety, 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/C2PO.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Xuan Feng**, Bo An, Tianlong Gu✉, Liang Chang, Fengrui Hao, Peipeng Yu, Shuai Zhao, C2PO: Diagnosing and Disentangling Bias Shortcuts in LLMs. arXiv preprint arXiv:2512.23430.
+**Xuan Feng**, Bo An, Tianlong Gu✉, Liang Chang, Fengrui Hao, Peipeng Yu, Shuai Zhao. C2PO: Diagnosing and Disentangling Bias Shortcuts in LLMs. Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics（ACL‘2026）
 
 [[Paper]](https://arxiv.org/abs/2512.23430)
 
@@ -65,7 +65,7 @@ My research centers on advancing **Trustworthy AI**, with a focus on AI safety, 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='images/Value.jpg' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Xuan Feng**, Mingfeng Feng, Ning Zhang, Tianlong Gu✉, Liang Chang, Chenzhong Bin, A Hierarchical Evaluation Framework for Security and Trustworthiness in Large Vision-Language Models. PR 2026.
+**Xuan Feng**, Mingfeng Feng, Ning Zhang, Tianlong Gu✉, Liang Chang, Chenzhong Bin. A Hierarchical Evaluation Framework for Security and Trustworthiness in Large Vision-Language Models. Pattern Recognition（PR'2026)
 
 </div>
 </div>
@@ -74,7 +74,7 @@ My research centers on advancing **Trustworthy AI**, with a focus on AI safety, 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/LIMIT.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Xuan Feng**, Tianlong Gu, Xiaoli Liu, Liang Chang, Learning from Mistakes: Self-correct Adversarial Training for Chinese Unnatural Text Correction[C], the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI'25). 2025, 39(22): 23887-23895.
+**Xuan Feng**, Tianlong Gu, Xiaoli Liu, Liang Chang. Learning from Mistakes: Self-correct Adversarial Training for Chinese Unnatural Text Correction. Proceedings of the 39th AAAI Conference on Artificial Intelligence (AAAI'2025)
 
 [[Paper]](https://arxiv.org/abs/2412.17279)[[Code]](https://github.com/fenffef/LIMIT)
 
@@ -85,7 +85,7 @@ My research centers on advancing **Trustworthy AI**, with a focus on AI safety, 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/AMGSN.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition [J], Pattern Recognition (PR'25), 2025: 112023.
+Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo. AMGSN: Adaptive Mask-Guide Supervised Network for Debiased Facial Expression Recognition. Pattern Recognition (PR'2025)
 
 [[Paper]](https://doi.org/10.1016/j.patcog.2025.112023) [[Code]](https://github.com/fenffef/AMGSN/tree/main) 
 
@@ -98,7 +98,7 @@ Tianlong Gu, Hao Li, **Xuan Feng**✉, Yiqin Luo, AMGSN: Adaptive Mask-Guide Sup
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/LVM.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Unlocking the capabilities of vision-language models for generalizable and explainable deepfake detection. Proceedings of the 42nd International Conference on Machine Learning (ICML'25), PMLR 267:72925-72943.
+Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Unlocking the capabilities of vision-language models for generalizable and explainable deepfake detection. Proceedings of the 42nd International Conference on Machine Learning (ICML'2025)
 
 [[Paper]](https://openreview.net/pdf?id=vDB2oX3Wl3)
 [[Code]](https://github.com/botianzhe/LVLM-DFD)
@@ -110,7 +110,7 @@ Peipeng Yu, Jianwei Fei, Hui Gao, **Xuan Feng**, Zhihua Xia, Chip Hong Chang, Un
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICDE 2024 Oral</div><img src='images/dtdbd.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Jiayang Li\*, **Xuan Feng**\*, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing Distillation Framework for Multi-domain Fake News Detection[C], 2024 IEEE 40th International Conference on Data Engineering (ICDE'24), Utrecht, Netherlands, 2024, pp. 3627-3639, doi: 10.1109/ICDE60146.2024.00279.
+Jiayang Li\*, **Xuan Feng**\*, Tianlong Gu, Liang Chang. Dual-Teacher De-biasing Distillation Framework for Multi-domain Fake News Detection. Proceedings of the 40th IEEE International Conference on Data Engineering (ICDE'2024)
 
 [[Paper]](https://ieeexplore.ieee.org/abstract/document/10598140)
 [[Code]](https://github.com/ningljy/DTDBD)
@@ -125,7 +125,7 @@ Jiayang Li\*, **Xuan Feng**\*, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TASLP 2024</div><img src='images/PROTECT.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Xuan Feng**, Tianlong Gu, Liang Chang, Xiaoli Liu, PROTECT: Parameter-Efficient Tuning for Few-Shot Robust Chinese Text Correction[J], in IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP'24), doi: 10.1109/TASLP.2024.3414333.
+**Xuan Feng**, Tianlong Gu, Liang Chang, Xiaoli Liu. PROTECT: Parameter-Efficient Tuning for Few-Shot Robust Chinese Text Correction. IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP'2024)
 
 [[Paper]](https://ieeexplore.ieee.org/document/10557151)  [[Code]](https://github.com/fenffef/PROTECT)
 
@@ -136,7 +136,7 @@ Jiayang Li\*, **Xuan Feng**\*, Tianlong Gu, Liang Chang, Dual-Teacher De-biasing
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TAFFC 2024</div><img src='images/SCARE.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Tianlong Gu, Mingfeng Feng, **Xuan Feng**✉,  Xuemin Wang. SCARE: A Novel Framework to Enhance Chinese Harmful Memes Detection[J], in IEEE Transactions on Affective Computing (TAFFC'24), 2024. doi: 10.1109/TAFFC.2024.3481419.
+Tianlong Gu, Mingfeng Feng, **Xuan Feng**✉,  Xuemin Wang. SCARE: A Novel Framework to Enhance Chinese Harmful Memes Detection. IEEE Transactions on Affective Computing (TAFFC'2024)
 
 [[Paper]](https://ieeexplore.ieee.org/document/10720078) [[Code]](https://github.com/fengmingfeng/SCARE)
 
@@ -149,7 +149,7 @@ Tianlong Gu, Mingfeng Feng, **Xuan Feng**✉,  Xuemin Wang. SCARE: A Novel Fram
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RecSys 2024 Spotlight</div><img src='images/FAIRCRS.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Qin Liu*, **Xuan Feng**\*, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-oriented Fairness in Conversational Recommendation Systems[C], In Proceedings of The 18th ACM Conference on Recommender Systems (RecSys'24), October 14–18, 2024, Bari, Italy. ACM, New York, NY, USA,  doi: 10.1145/3640457.3688150.
+Qin Liu*, **Xuan Feng**\*, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-oriented Fairness in Conversational Recommendation Systems. Proceedings of The 18th ACM Conference on Recommender Systems (RecSys'2024)
 
 [[Paper]](https://dl.acm.org/doi/10.1145/3640457.3688150) [[Code]](https://github.com/LQlq123/FairCRS)
 
@@ -162,7 +162,7 @@ Qin Liu*, **Xuan Feng**\*, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-or
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TAFFC 2023</div><img src='images/beu.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Xuan Feng**, Tianlong Gu, Xuguang Bao, Long Li. Behavior-Based Ethical Understanding in Chinese Social News[J], in IEEE Transactions on Affective Computing (TAFFC'23), vol. 14, no. 3, pp. 2349-2360, 1 July-Sept. 2023, doi: 10.1109/TAFFC.2022.3160745.
+**Xuan Feng**, Tianlong Gu, Xuguang Bao, Long Li. Behavior-Based Ethical Understanding in Chinese Social News. IEEE Transactions on Affective Computing (TAFFC'2023)
 
 [[Paper]](https://ieeexplore.ieee.org/document/9739920)
 [[Code]](https://github.com/fenffef/BEU-BERT-master)
@@ -171,12 +171,12 @@ Qin Liu*, **Xuan Feng**\*, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-or
 </div>
 
 
-- **Xuan Feng**, Yuan Yao, Tianlong Gu, Liang Chang, Xiaoli Liu. Mitigating Implicit Bias in Chinese Toxic Speech Detection via Unbiased Contrastive Learning[J]. Transactions on Asian and Low-Resource Language Information Processing.
+- **Xuan Feng**, Yuan Yao, Tianlong Gu, Liang Chang, Xiaoli Liu. Mitigating Implicit Bias in Chinese Toxic Speech Detection via Unbiased Contrastive Learning. Transactions on Asian and Low-Resource Language Information Processing (TALLIP'2026)
 
-- Zhengnan Yin, Luwei Xiao, **Xuan Feng**, Yiwei Chen, Xianxun Zhu, Cai Luo, Faten S Alamri, Rui Mao, Erik Cambria, AOSNet-Sec: Aperture–Orientation–Spectrum Fusion with Statistical Markov Repair for Trustworthy Super-Resolution [J], Pattern Recognition (PR'26).
+- Zhengnan Yin, Luwei Xiao, **Xuan Feng**, Yiwei Chen, Xianxun Zhu, Cai Luo, Faten S Alamri, Rui Mao, Erik Cambria, AOSNet-Sec: Aperture–Orientation–Spectrum Fusion with Statistical Markov Repair for Trustworthy Super-Resolution. Pattern Recognition (PR'2026)
 [[Paper]](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320326003110?via%3Dihub)
 
-- 古天龙, **冯旋**, 李龙, 包旭光, 李云辉. 基于社会新闻数据集的伦理行为判别方法[J]. 计算机研究与发展, 2021, 58(02): 253-263. doi: 10.7544/issn1000-1239.2021.20200727. [[Paper]](https://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2021.20200727)
+- 古天龙, **冯旋**, 李龙, 包旭光, 李云辉. 基于社会新闻数据集的伦理行为判别方法. 计算机研究与发展, 2021 [[Paper]](https://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2021.20200727)
 
 # 🎖 Honors and Awards
 - 2021.10 National Scholarship
