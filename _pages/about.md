@@ -27,13 +27,13 @@ My research centers on advancing **Trustworthy AI**, with a focus on AI safety, 
   
 
 # 🔥 News
-- 2026.06 One paper accepted by Pattern Recognition (PR 2026).  🎉 Appreciate the efforts of the co-author @Mingfeng Feng and @Ning Zhang.
-- 2026.05 One paper accepted by The International Conference on Machine Learning (ICML 2026).  🎉 Appreciate the efforts of the co-author @[Shuai Zhao](https://shuaizhao95.github.io/) and @[Luwei Xiao](https://scholar.google.com/citations?user=UiWugpoAAAAJ&hl).
-- 2026.05 One paper accepted by The Transactions on Asian and Low-Resource Language Information Processing (TALLIP 2026).  🎉 Appreciate the efforts of the co-author @Yuan Yao.
-- 2026.04 One paper accepted by The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026). 🎉 Appreciate the efforts of the co-author @[Shuai Zhao](https://shuaizhao95.github.io/).
-- 2026.02 One paper accepted by Pattern Recognition (PR 2026).  🎉  Appreciate the efforts of the co-author @[Luwei Xiao](https://scholar.google.com/citations?user=UiWugpoAAAAJ&hl).
-- 2025.06 One paper accepted by Pattern Recognition (PR 2025).  🎉  Appreciate the efforts of the co-author @Hao Li.
-- 2025.05 One paper accepted by The Forty-second International Conference on Machine Learning (ICML 2025).  🎉 Appreciate the efforts of the co-author @[Peipeng Yu](https://scholar.google.com/citations?user=ca1eM1kAAAAJ&hl).
+- 2026.06 One paper accepted by Pattern Recognition (PR'2026).  🎉 Appreciate the efforts of the co-author @Mingfeng Feng and @Ning Zhang.
+- 2026.05 One paper accepted by The International Conference on Machine Learning (ICML'2026).  🎉 Appreciate the efforts of the co-author @[Shuai Zhao](https://shuaizhao95.github.io/) and @[Luwei Xiao](https://scholar.google.com/citations?user=UiWugpoAAAAJ&hl).
+- 2026.05 One paper accepted by The Transactions on Asian and Low-Resource Language Information Processing (TALLIP'2026).  🎉 Appreciate the efforts of the co-author @Yuan Yao.
+- 2026.04 One paper accepted by The 64th Annual Meeting of the Association for Computational Linguistics (ACL'2026). 🎉 Appreciate the efforts of the co-author @[Shuai Zhao](https://shuaizhao95.github.io/).
+- 2026.02 One paper accepted by Pattern Recognition (PR'2026).  🎉  Appreciate the efforts of the co-author @[Luwei Xiao](https://scholar.google.com/citations?user=UiWugpoAAAAJ&hl).
+- 2025.06 One paper accepted by Pattern Recognition (PR'2025).  🎉  Appreciate the efforts of the co-author @Hao Li.
+- 2025.05 One paper accepted by The Forty-second International Conference on Machine Learning (ICML'2025).  🎉 Appreciate the efforts of the co-author @[Peipeng Yu](https://scholar.google.com/citations?user=ca1eM1kAAAAJ&hl).
 
 
 
