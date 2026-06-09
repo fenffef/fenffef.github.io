@@ -68,7 +68,7 @@ My research centers on advancing **Trustworthy AI**, with a focus on AI safety, 
 
 **Xuan Feng**, Mingfeng Feng, Ning Zhang, Tianlong Gu✉, Liang Chang, Chenzhong Bin. A Hierarchical Evaluation Framework for Security and Trustworthiness in Large Vision-Language Models. Pattern Recognition（PR'2026)
 
-[[Paper]](https://www.sciencedirect.com/science/article/pii/S003132032601126X)
+[[Paper]](https://www.sciencedirect.com/science/article/pii/S003132032601126X)[[Code]](https://github.com/fenffef/VALUE-Bench)
 
 </div>
 </div>
