@@ -162,20 +162,12 @@ Qin Liu*, **Xuan Feng**\*, Tianlong Gu, and Xiaoli Liu. FairCRS: Towards User-or
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TAFFC 2023</div><img src='images/beu.png' alt="sym" width="90%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Xuan Feng**, Tianlong Gu, Xuguang Bao, Long Li. Behavior-Based Ethical Understanding in Chinese Social News. IEEE Transactions on Affective Computing (TAFFC'2023)
-
-[[Paper]](https://ieeexplore.ieee.org/document/9739920)
-[[Code]](https://github.com/fenffef/BEU-BERT-master)
-
-</div>
-</div>
-
-
 - **Xuan Feng**, Yuan Yao, Tianlong Gu, Liang Chang, Xiaoli Liu. Mitigating Implicit Bias in Chinese Toxic Speech Detection via Unbiased Contrastive Learning. Transactions on Asian and Low-Resource Language Information Processing (TALLIP'2026)
 [[Paper]](https://dl.acm.org/doi/10.1145/3816029)
+
+- **Xuan Feng**, Tianlong Gu, Xuguang Bao, Long Li. Behavior-Based Ethical Understanding in Chinese Social News. IEEE Transactions on Affective Computing (TAFFC'2023)
+[[Paper]](https://ieeexplore.ieee.org/document/9739920)
+[[Code]](https://github.com/fenffef/BEU-BERT-master)
 
 - Zhengnan Yin, Luwei Xiao, **Xuan Feng**, Yiwei Chen, Xianxun Zhu, Cai Luo, Faten S Alamri, Rui Mao, Erik Cambria, AOSNet-Sec: Aperture–Orientation–Spectrum Fusion with Statistical Markov Repair for Trustworthy Super-Resolution. Pattern Recognition (PR'2026)
 [[Paper]](https://www-sciencedirect-com.remotexs.ntu.edu.sg/science/article/pii/S0031320326003110?via%3Dihub)
