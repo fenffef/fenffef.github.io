@@ -19,12 +19,16 @@ redirect_from:
 
 
 # 😊 About me
-I am a Ph.D. student in Cyber Security at Jinan University, supervised by Prof. [Tianlong Gu](https://scholar.google.com/citations?user=bH5C2hAAAAAJ), affiliated with the Engineering Research Center of Trustworthy Artificial Intelligence (Ministry of Education). I am currently a joint PhD student at Nanyang Technological University (NTU), sponsored by the China Scholarship Council (CSC), and am fortunate to be supervised by AAAI Fellow, Prof. [Bo An](https://personal.ntu.edu.sg/boan).
+I received my Ph.D. degree in Cyber Security from Jinan University, where I was supervised by Prof. [Tianlong Gu](https://scholar.google.com/citations?user=bH5C2hAAAAAJ), affiliated with the Engineering Research Center of Trustworthy Artificial Intelligence (Ministry of Education). I was also fortunate to be advised by AAAI Fellow Prof. [Bo An](https://personal.ntu.edu.sg/boan) at Nanyang Technological University (NTU), Singapore.
+
+I will soon start a postdoctoral position.
 
 
 Research interests:
 
 My research centers on advancing **Trustworthy AI**, with a focus on AI safety, value alignment, content moderation, and algorithmic fairness. Rather than treating these as isolated concepts, I actively integrate them into the study of complex architectures, investigating how to build safe and aligned multimodal learning models and recommender systems. Through collaborative research in these intersecting areas, my ultimate goal is to understand and enhance the capabilities of next-generation general AI, ensuring these systems are robust, reliable, and responsibly deployed in real-world applications.
+
+I welcome collaborations with self-motivated students who share interests in trustworthy AI, LLM safety, fairness and debiasing, and robust NLP. If you are interested in working with me, feel free to reach out.
   
 
 # 🔥 News
