@@ -26,6 +26,18 @@ I will soon start a postdoctoral position.
 
 Research interests:
 
+<p align="center">
+
+  <img src="images/Research.png" width="95%">
+
+</p>
+
+<p align="center">
+
+  <em>Research Framework: Trustworthy AI for Safe, Fair, and Robust Foundation Models.</em>
+
+</p>
+
 My research centers on advancing **Trustworthy AI**, with a focus on AI safety, value alignment, content moderation, and algorithmic fairness. Rather than treating these as isolated concepts, I actively integrate them into the study of complex architectures, investigating how to build safe and aligned multimodal learning models and recommender systems. Through collaborative research in these intersecting areas, my ultimate goal is to understand and enhance the capabilities of next-generation general AI, ensuring these systems are robust, reliable, and responsibly deployed in real-world applications.
 
 I welcome collaborations with self-motivated students who share interests in trustworthy AI, LLM safety, fairness and debiasing. If you are interested in working with me, feel free to reach out.
