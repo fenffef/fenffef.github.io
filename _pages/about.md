@@ -56,9 +56,11 @@ I welcome collaborations with self-motivated students who share interests in tru
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TDSC 2026</div><img src='images/Self.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Xuan Feng**, Shuai Zhao, Luwei Xiao, Tianlong Gu✉, Bo An. Bridging the Granularity Gap: Semantic-Aware Adversarial Training for Chinese Language Models. Transactions on Dependable and Secure Computing（TDSC‘2026）
+Tianlong Gu, Chuqiao Zhou, **Xuan Feng**✉, Xuemin Wang. Bridging the Granularity Gap: Semantic-Aware Adversarial Training for Chinese Language Models. Transactions on Dependable and Secure Computing（TDSC‘2026）
 
 [[Paper]](https://arxiv.org/)
+
+(Corresponding Author)
 
 </div>
 </div>
