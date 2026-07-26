@@ -42,14 +42,12 @@ I welcome collaborations with self-motivated students who share interests in tru
   
 
 # 🔥 News
-- 2026.06 One paper accepted by Transactions on Dependable and Secure Computing (TDSC'2026).  🎉 Appreciate the efforts of the co-author @Chuqiao Zhou.
+- 2026.07 One paper accepted by Transactions on Dependable and Secure Computing (TDSC'2026).  🎉 Appreciate the efforts of the co-author @Chuqiao Zhou.
 - 2026.06 One paper accepted by Pattern Recognition (PR'2026).  🎉 Appreciate the efforts of the co-author @Mingfeng Feng and @Ning Zhang.
 - 2026.05 One paper accepted by The International Conference on Machine Learning (ICML'2026).  🎉 Appreciate the efforts of the co-author @Dr. [Shuai Zhao](https://shuaizhao95.github.io/) and @Dr. [Luwei Xiao](https://scholar.google.com/citations?user=UiWugpoAAAAJ&hl).
 - 2026.05 One paper accepted by The Transactions on Asian and Low-Resource Language Information Processing (TALLIP'2026).  🎉 Appreciate the efforts of the co-author @Yuan Yao.
 - 2026.04 One paper accepted by The 64th Annual Meeting of the Association for Computational Linguistics (ACL'2026). 🎉 Appreciate the efforts of the co-author @Dr. [Shuai Zhao](https://shuaizhao95.github.io/).
 - 2026.02 One paper accepted by Pattern Recognition (PR'2026).  🎉  Appreciate the efforts of the co-author @Dr. [Luwei Xiao](https://scholar.google.com/citations?user=UiWugpoAAAAJ&hl).
-- 2025.06 One paper accepted by Pattern Recognition (PR'2025).  🎉  Appreciate the efforts of the co-author @Hao Li.
-- 2025.05 One paper accepted by The Forty-second International Conference on Machine Learning (ICML'2025).  🎉 Appreciate the efforts of the co-author @Dr. [Peipeng Yu](https://scholar.google.com/citations?user=ca1eM1kAAAAJ&hl).
 
 
 # 📝 Publications
