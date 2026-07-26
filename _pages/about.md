@@ -60,19 +60,16 @@ I welcome collaborations with self-motivated students who share interests in tru
 
 [[Paper]](https://arxiv.org/)
 
-
 </div>
 </div>
 
 
-# 📝 Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/Self-Debias.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Xuan Feng**, Shuai Zhao, Luwei Xiao, Tianlong Gu✉, Bo An. Self-Debias: Self-correcting for Debiasing Large Language Models. Proceedings of the 43rd International Conference on Machine Learning （ICML‘2026）
 
 [[Paper]](https://arxiv.org/abs/2604.08243v2)
-
 
 </div>
 </div>
