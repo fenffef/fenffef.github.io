@@ -80,7 +80,7 @@ Tianlong Gu, Chuqiao Zhou, **Xuan Feng**✉, Xuemin Wang. Bridging the Granulari
 
 **Xuan Feng**, Bo An, Tianlong Gu✉, Liang Chang, Fengrui Hao, Peipeng Yu, Shuai Zhao. C2PO: Diagnosing and Disentangling Bias Shortcuts in LLMs. Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics（ACL‘2026）
 
-[[Paper]](https://arxiv.org/abs/2512.23430)
+[[Paper]](https://arxiv.org/abs/2512.23430)[[Code]](https://github.com/fenffef/C2PO/tree/main)
 
 
 </div>
