@@ -56,7 +56,7 @@ I welcome collaborations with self-motivated students who share interests in tru
 
 Tianlong Gu, Chuqiao Zhou, **Xuan Feng**✉, Xuemin Wang. Bridging the Granularity Gap: Semantic-Aware Adversarial Training for Chinese Language Models. Transactions on Dependable and Secure Computing（TDSC‘2026）
 
-[[Paper]](https://arxiv.org/)
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/11626512)
 
 (Corresponding Author)
 
